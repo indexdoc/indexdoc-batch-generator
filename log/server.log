@@ -1,0 +1,889 @@
+20260119 101934:INFO:FILE(server.py <module> 87):Tornado Web Server Starting ......
+20260119 101934:INFO:FILE(server.py <module> 90):Tornado Web Server Start at Port 50003
+20260119 102042:WARNING:FILE(server.py custom_log_request 37):404 GET / (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 8.11ms
+20260119 102043:WARNING:FILE(server.py custom_log_request 37):404 GET /favicon.ico (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.60ms
+20260119 102112:WARNING:FILE(server.py custom_log_request 37):404 GET /batchDoc.html (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.69ms
+20260119 102314:INFO:FILE(server.py custom_log_request 37):200 GET /public/batchDoc.html (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 3.95ms
+20260119 102314:WARNING:FILE(server.py custom_log_request 37):404 GET /pc/static/css/layui.css (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.88ms
+20260119 102314:WARNING:FILE(server.py custom_log_request 37):404 GET /pc/static/css/batchDoc.css (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.50ms
+20260119 102314:WARNING:FILE(server.py custom_log_request 37):404 GET /pc/static/img/excel.png (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.60ms
+20260119 102314:WARNING:FILE(server.py custom_log_request 37):404 GET /pc/static/img/word.png (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.86ms
+20260119 102314:WARNING:FILE(server.py custom_log_request 37):404 GET /pc/static/js/layui.js (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 1.22ms
+20260119 102314:WARNING:FILE(server.py custom_log_request 37):404 GET /pc/static/js/jquery-2.1.1.js (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 1.59ms
+20260119 102314:WARNING:FILE(server.py custom_log_request 37):404 GET /pc/static/js/public.js (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.63ms
+20260119 102314:WARNING:FILE(server.py custom_log_request 37):404 GET /pc/static/js/marked.min.js (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.94ms
+20260119 102314:WARNING:FILE(server.py custom_log_request 37):404 GET /pc/static/js/sendHandle.js (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.50ms
+20260119 102316:WARNING:FILE(server.py custom_log_request 37):404 GET /pc/static/img/logo-xcube.ico (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.74ms
+20260119 102320:WARNING:FILE(server.py custom_log_request 37):404 GET /pc/static/css/layui.css (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.75ms
+20260119 102320:WARNING:FILE(server.py custom_log_request 37):404 GET /pc/static/css/batchDoc.css (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.47ms
+20260119 102325:INFO:FILE(server.py custom_log_request 37):304 GET /public/batchDoc.html (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.79ms
+20260119 102325:WARNING:FILE(server.py custom_log_request 37):404 GET /pc/static/css/layui.css (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.69ms
+20260119 102325:WARNING:FILE(server.py custom_log_request 37):404 GET /pc/static/css/batchDoc.css (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.51ms
+20260119 102325:WARNING:FILE(server.py custom_log_request 37):404 GET /pc/static/img/excel.png (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.46ms
+20260119 102325:WARNING:FILE(server.py custom_log_request 37):404 GET /pc/static/img/word.png (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.47ms
+20260119 102325:WARNING:FILE(server.py custom_log_request 37):404 GET /pc/static/js/layui.js (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.57ms
+20260119 102325:WARNING:FILE(server.py custom_log_request 37):404 GET /pc/static/js/jquery-2.1.1.js (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.44ms
+20260119 102325:WARNING:FILE(server.py custom_log_request 37):404 GET /pc/static/js/public.js (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.45ms
+20260119 102325:WARNING:FILE(server.py custom_log_request 37):404 GET /pc/static/js/marked.min.js (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.61ms
+20260119 102325:WARNING:FILE(server.py custom_log_request 37):404 GET /pc/static/js/sendHandle.js (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.92ms
+20260119 102408:INFO:FILE(autoreload.py _check_file 197):/root/PycharmProjects/indexdoc-batch-generator/html/pc/public/batchDoc.html modified; restarting server
+20260119 102409:INFO:FILE(server.py <module> 87):Tornado Web Server Starting ......
+20260119 102409:INFO:FILE(server.py <module> 90):Tornado Web Server Start at Port 50003
+20260119 102409:INFO:FILE(server.py custom_log_request 37):200 GET /public/batchDoc.html (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 3.57ms
+20260119 102409:WARNING:FILE(server.py custom_log_request 37):404 GET /pc/static/css/layui.css (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 1.17ms
+20260119 102409:WARNING:FILE(server.py custom_log_request 37):404 GET /pc/static/css/batchDoc.css (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.53ms
+20260119 102409:WARNING:FILE(server.py custom_log_request 37):404 GET /pc/static/img/excel.png (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.56ms
+20260119 102409:WARNING:FILE(server.py custom_log_request 37):404 GET /pc/static/img/word.png (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.46ms
+20260119 102409:WARNING:FILE(server.py custom_log_request 37):404 GET /pc/static/js/layui.js (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.45ms
+20260119 102409:WARNING:FILE(server.py custom_log_request 37):404 GET /pc/static/js/jquery-2.1.1.js (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.52ms
+20260119 102409:WARNING:FILE(server.py custom_log_request 37):404 GET /pc/static/js/public.js (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.50ms
+20260119 102409:WARNING:FILE(server.py custom_log_request 37):404 GET /pc/static/js/marked.min.js (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.49ms
+20260119 102409:WARNING:FILE(server.py custom_log_request 37):404 GET /pc/static/js/sendHandle.js (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.50ms
+20260119 102411:WARNING:FILE(server.py custom_log_request 37):404 GET /pc/static/img/logo-indexdoc.ico (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.76ms
+20260119 102425:INFO:FILE(autoreload.py _check_file 197):/root/PycharmProjects/indexdoc-batch-generator/html/pc/public/batchDoc.html modified; restarting server
+20260119 102425:INFO:FILE(server.py <module> 87):Tornado Web Server Starting ......
+20260119 102425:INFO:FILE(server.py <module> 90):Tornado Web Server Start at Port 50003
+20260119 102425:INFO:FILE(server.py custom_log_request 37):200 GET /public/batchDoc.html (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 3.51ms
+20260119 102425:WARNING:FILE(server.py custom_log_request 37):404 GET /pc/static/css/layui.css (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 1.26ms
+20260119 102425:WARNING:FILE(server.py custom_log_request 37):404 GET /pc/static/css/batchDoc.css (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.62ms
+20260119 102425:WARNING:FILE(server.py custom_log_request 37):404 GET /pc/static/img/excel.png (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.53ms
+20260119 102425:WARNING:FILE(server.py custom_log_request 37):404 GET /pc/static/img/word.png (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.53ms
+20260119 102425:WARNING:FILE(server.py custom_log_request 37):404 GET /pc/static/js/layui.js (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.50ms
+20260119 102425:WARNING:FILE(server.py custom_log_request 37):404 GET /pc/static/js/jquery-2.1.1.js (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.56ms
+20260119 102425:WARNING:FILE(server.py custom_log_request 37):404 GET /pc/static/js/public.js (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.49ms
+20260119 102425:WARNING:FILE(server.py custom_log_request 37):404 GET /pc/static/js/marked.min.js (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.45ms
+20260119 102425:WARNING:FILE(server.py custom_log_request 37):404 GET /pc/static/js/sendHandle.js (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.43ms
+20260119 102427:WARNING:FILE(server.py custom_log_request 37):404 GET /logo-indexdoc.ico (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.64ms
+20260119 102448:INFO:FILE(server.py custom_log_request 37):304 GET /public/batchDoc.html (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.66ms
+20260119 102448:WARNING:FILE(server.py custom_log_request 37):404 GET /pc/static/css/layui.css (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.77ms
+20260119 102448:WARNING:FILE(server.py custom_log_request 37):404 GET /pc/static/css/batchDoc.css (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 1.03ms
+20260119 102448:WARNING:FILE(server.py custom_log_request 37):404 GET /pc/static/img/excel.png (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 1.37ms
+20260119 102448:WARNING:FILE(server.py custom_log_request 37):404 GET /pc/static/img/word.png (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 1.65ms
+20260119 102448:WARNING:FILE(server.py custom_log_request 37):404 GET /pc/static/js/layui.js (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.77ms
+20260119 102448:WARNING:FILE(server.py custom_log_request 37):404 GET /pc/static/js/jquery-2.1.1.js (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.97ms
+20260119 102448:WARNING:FILE(server.py custom_log_request 37):404 GET /pc/static/js/public.js (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.50ms
+20260119 102448:WARNING:FILE(server.py custom_log_request 37):404 GET /pc/static/js/marked.min.js (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.55ms
+20260119 102448:WARNING:FILE(server.py custom_log_request 37):404 GET /pc/static/js/sendHandle.js (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.82ms
+20260119 102457:INFO:FILE(server.py custom_log_request 37):304 GET /public/batchDoc.html (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.63ms
+20260119 102457:WARNING:FILE(server.py custom_log_request 37):404 GET /pc/static/css/layui.css (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.52ms
+20260119 102457:WARNING:FILE(server.py custom_log_request 37):404 GET /pc/static/css/batchDoc.css (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.49ms
+20260119 102457:WARNING:FILE(server.py custom_log_request 37):404 GET /pc/static/img/excel.png (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.45ms
+20260119 102457:WARNING:FILE(server.py custom_log_request 37):404 GET /pc/static/img/word.png (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.44ms
+20260119 102457:WARNING:FILE(server.py custom_log_request 37):404 GET /pc/static/js/layui.js (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.46ms
+20260119 102457:WARNING:FILE(server.py custom_log_request 37):404 GET /pc/static/js/jquery-2.1.1.js (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.46ms
+20260119 102457:WARNING:FILE(server.py custom_log_request 37):404 GET /pc/static/js/public.js (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.48ms
+20260119 102457:WARNING:FILE(server.py custom_log_request 37):404 GET /pc/static/js/marked.min.js (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.41ms
+20260119 102457:WARNING:FILE(server.py custom_log_request 37):404 GET /pc/static/js/sendHandle.js (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.43ms
+20260119 102555:INFO:FILE(server.py custom_log_request 37):200 GET /public/batchDoc.html (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.75ms
+20260119 102555:WARNING:FILE(server.py custom_log_request 37):404 GET /pc/static/css/layui.css (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.55ms
+20260119 102555:WARNING:FILE(server.py custom_log_request 37):404 GET /pc/static/css/batchDoc.css (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.45ms
+20260119 102555:WARNING:FILE(server.py custom_log_request 37):404 GET /pc/static/img/excel.png (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.44ms
+20260119 102555:WARNING:FILE(server.py custom_log_request 37):404 GET /pc/static/img/word.png (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.46ms
+20260119 102555:WARNING:FILE(server.py custom_log_request 37):404 GET /pc/static/js/layui.js (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.42ms
+20260119 102555:WARNING:FILE(server.py custom_log_request 37):404 GET /pc/static/js/jquery-2.1.1.js (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.46ms
+20260119 102555:WARNING:FILE(server.py custom_log_request 37):404 GET /pc/static/js/public.js (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.46ms
+20260119 102555:WARNING:FILE(server.py custom_log_request 37):404 GET /pc/static/js/marked.min.js (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.48ms
+20260119 102555:WARNING:FILE(server.py custom_log_request 37):404 GET /pc/static/js/sendHandle.js (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.42ms
+20260119 102557:WARNING:FILE(server.py custom_log_request 37):404 GET /logo-indexdoc.ico (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.66ms
+20260119 103724:INFO:FILE(autoreload.py _check_file 197):/root/PycharmProjects/indexdoc-batch-generator/html/pc/public/batchDoc.html modified; restarting server
+20260119 103724:INFO:FILE(server.py <module> 87):Tornado Web Server Starting ......
+20260119 103724:INFO:FILE(server.py <module> 90):Tornado Web Server Start at Port 50003
+20260119 103839:INFO:FILE(autoreload.py _check_file 197):/root/PycharmProjects/indexdoc-batch-generator/html/pc/public modified; restarting server
+20260119 103839:INFO:FILE(server.py <module> 87):Tornado Web Server Starting ......
+20260119 103839:INFO:FILE(server.py <module> 90):Tornado Web Server Start at Port 50003
+20260119 103845:INFO:FILE(autoreload.py _check_file 197):/root/PycharmProjects/indexdoc-batch-generator/html modified; restarting server
+20260119 103845:INFO:FILE(server.py <module> 87):Tornado Web Server Starting ......
+20260119 103845:INFO:FILE(server.py <module> 90):Tornado Web Server Start at Port 50003
+20260119 103852:INFO:FILE(autoreload.py _check_file 197):/root/PycharmProjects/indexdoc-batch-generator/html/pc/public/batchDoc.html modified; restarting server
+20260119 103853:INFO:FILE(server.py <module> 87):Tornado Web Server Starting ......
+20260119 103853:INFO:FILE(server.py <module> 90):Tornado Web Server Start at Port 50003
+20260119 103855:INFO:FILE(server.py custom_log_request 37):200 GET /public/batchDoc.html (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 3.93ms
+20260119 103855:WARNING:FILE(server.py custom_log_request 37):404 GET /pc/static/css/layui.css (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 1.59ms
+20260119 103855:WARNING:FILE(server.py custom_log_request 37):404 GET /pc/static/css/batchDoc.css (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.60ms
+20260119 103855:WARNING:FILE(server.py custom_log_request 37):404 GET /pc/static/img/excel.png (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 1.46ms
+20260119 103855:WARNING:FILE(server.py custom_log_request 37):404 GET /pc/static/img/word.png (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 1.73ms
+20260119 103855:WARNING:FILE(server.py custom_log_request 37):404 GET /pc/static/js/layui.js (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 1.86ms
+20260119 103855:WARNING:FILE(server.py custom_log_request 37):404 GET /pc/static/js/jquery-2.1.1.js (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 2.12ms
+20260119 103855:WARNING:FILE(server.py custom_log_request 37):404 GET /pc/static/js/public.js (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.56ms
+20260119 103855:WARNING:FILE(server.py custom_log_request 37):404 GET /pc/static/js/marked.min.js (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.48ms
+20260119 103855:WARNING:FILE(server.py custom_log_request 37):404 GET /pc/static/js/sendHandle.js (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.46ms
+20260119 103856:INFO:FILE(server.py custom_log_request 37):200 GET /public/logo-indexdoc.ico (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.64ms
+20260119 103930:INFO:FILE(autoreload.py _check_file 197):/root/PycharmProjects/indexdoc-batch-generator/html/pc/public/batchDoc.html modified; restarting server
+20260119 103930:INFO:FILE(server.py <module> 87):Tornado Web Server Starting ......
+20260119 103930:INFO:FILE(server.py <module> 90):Tornado Web Server Start at Port 50003
+20260119 103932:INFO:FILE(server.py custom_log_request 37):200 GET /public/batchDoc.html (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 3.52ms
+20260119 103932:WARNING:FILE(server.py custom_log_request 37):404 GET /static/css/layui.css (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 1.09ms
+20260119 103932:WARNING:FILE(server.py custom_log_request 37):404 GET /static/css/batchDoc.css (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.44ms
+20260119 103932:WARNING:FILE(server.py custom_log_request 37):404 GET /pc/static/img/excel.png (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.51ms
+20260119 103932:WARNING:FILE(server.py custom_log_request 37):404 GET /pc/static/img/word.png (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.48ms
+20260119 103932:WARNING:FILE(server.py custom_log_request 37):404 GET /pc/static/js/layui.js (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.45ms
+20260119 103932:WARNING:FILE(server.py custom_log_request 37):404 GET /pc/static/js/jquery-2.1.1.js (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.57ms
+20260119 103932:WARNING:FILE(server.py custom_log_request 37):404 GET /pc/static/js/public.js (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.74ms
+20260119 103932:WARNING:FILE(server.py custom_log_request 37):404 GET /pc/static/js/marked.min.js (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 1.09ms
+20260119 103932:WARNING:FILE(server.py custom_log_request 37):404 GET /pc/static/js/sendHandle.js (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 1.45ms
+20260119 103934:INFO:FILE(server.py custom_log_request 37):304 GET /public/logo-indexdoc.ico (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.65ms
+20260119 104016:INFO:FILE(autoreload.py _check_file 197):/root/PycharmProjects/indexdoc-batch-generator/html/pc/public/static/css modified; restarting server
+20260119 104016:INFO:FILE(server.py <module> 87):Tornado Web Server Starting ......
+20260119 104016:INFO:FILE(server.py <module> 90):Tornado Web Server Start at Port 50003
+20260119 104018:INFO:FILE(autoreload.py _check_file 197):/root/PycharmProjects/indexdoc-batch-generator/html/pc/public/static/css/batchDoc.css modified; restarting server
+20260119 104018:INFO:FILE(server.py <module> 87):Tornado Web Server Starting ......
+20260119 104018:INFO:FILE(server.py <module> 90):Tornado Web Server Start at Port 50003
+20260119 104025:INFO:FILE(server.py custom_log_request 37):304 GET /public/batchDoc.html (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 3.24ms
+20260119 104025:WARNING:FILE(server.py custom_log_request 37):404 GET /static/css/layui.css (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 1.07ms
+20260119 104025:WARNING:FILE(server.py custom_log_request 37):404 GET /static/css/batchDoc.css (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.42ms
+20260119 104025:WARNING:FILE(server.py custom_log_request 37):404 GET /pc/static/img/excel.png (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.50ms
+20260119 104025:WARNING:FILE(server.py custom_log_request 37):404 GET /pc/static/img/word.png (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.48ms
+20260119 104025:WARNING:FILE(server.py custom_log_request 37):404 GET /pc/static/js/layui.js (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.45ms
+20260119 104025:WARNING:FILE(server.py custom_log_request 37):404 GET /pc/static/js/jquery-2.1.1.js (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.43ms
+20260119 104025:WARNING:FILE(server.py custom_log_request 37):404 GET /pc/static/js/public.js (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.49ms
+20260119 104025:WARNING:FILE(server.py custom_log_request 37):404 GET /pc/static/js/marked.min.js (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.56ms
+20260119 104025:WARNING:FILE(server.py custom_log_request 37):404 GET /pc/static/js/sendHandle.js (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.87ms
+20260119 104026:INFO:FILE(server.py custom_log_request 37):304 GET /public/logo-indexdoc.ico (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.58ms
+20260119 104027:INFO:FILE(server.py custom_log_request 37):304 GET /public/batchDoc.html (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.62ms
+20260119 104027:WARNING:FILE(server.py custom_log_request 37):404 GET /static/css/layui.css (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.55ms
+20260119 104027:WARNING:FILE(server.py custom_log_request 37):404 GET /static/css/batchDoc.css (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.37ms
+20260119 104027:WARNING:FILE(server.py custom_log_request 37):404 GET /pc/static/img/excel.png (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.45ms
+20260119 104027:WARNING:FILE(server.py custom_log_request 37):404 GET /pc/static/img/word.png (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.44ms
+20260119 104027:WARNING:FILE(server.py custom_log_request 37):404 GET /pc/static/js/layui.js (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.49ms
+20260119 104027:WARNING:FILE(server.py custom_log_request 37):404 GET /pc/static/js/jquery-2.1.1.js (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.48ms
+20260119 104027:WARNING:FILE(server.py custom_log_request 37):404 GET /pc/static/js/public.js (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.48ms
+20260119 104027:WARNING:FILE(server.py custom_log_request 37):404 GET /pc/static/js/marked.min.js (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.61ms
+20260119 104027:WARNING:FILE(server.py custom_log_request 37):404 GET /pc/static/js/sendHandle.js (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.93ms
+20260119 104130:INFO:FILE(server.py custom_log_request 37):200 GET /public/batchDoc.html (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.76ms
+20260119 104130:WARNING:FILE(server.py custom_log_request 37):404 GET /static/css/layui.css (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.51ms
+20260119 104130:WARNING:FILE(server.py custom_log_request 37):404 GET /static/css/batchDoc.css (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.37ms
+20260119 104130:WARNING:FILE(server.py custom_log_request 37):404 GET /pc/static/img/excel.png (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.51ms
+20260119 104130:WARNING:FILE(server.py custom_log_request 37):404 GET /pc/static/img/word.png (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.46ms
+20260119 104130:WARNING:FILE(server.py custom_log_request 37):404 GET /pc/static/js/layui.js (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.46ms
+20260119 104130:WARNING:FILE(server.py custom_log_request 37):404 GET /pc/static/js/jquery-2.1.1.js (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.47ms
+20260119 104130:WARNING:FILE(server.py custom_log_request 37):404 GET /pc/static/js/public.js (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.49ms
+20260119 104130:WARNING:FILE(server.py custom_log_request 37):404 GET /pc/static/js/marked.min.js (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.63ms
+20260119 104130:WARNING:FILE(server.py custom_log_request 37):404 GET /pc/static/js/sendHandle.js (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.94ms
+20260119 104132:INFO:FILE(server.py custom_log_request 37):200 GET /public/logo-indexdoc.ico (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.67ms
+20260119 104147:INFO:FILE(autoreload.py _check_file 197):/root/PycharmProjects/indexdoc-batch-generator/html/pc/public/batchDoc.html modified; restarting server
+20260119 104148:INFO:FILE(server.py <module> 87):Tornado Web Server Starting ......
+20260119 104148:INFO:FILE(server.py <module> 90):Tornado Web Server Start at Port 50003
+20260119 104148:INFO:FILE(server.py custom_log_request 37):200 GET /public/batchDoc.html (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 3.70ms
+20260119 104148:INFO:FILE(server.py custom_log_request 37):200 GET /public/static/css/batchDoc.css (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.45ms
+20260119 104148:INFO:FILE(server.py custom_log_request 37):200 GET /public/static/css/layui.css (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 4.23ms
+20260119 104148:WARNING:FILE(server.py custom_log_request 37):404 GET /pc/static/img/excel.png (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 1.22ms
+20260119 104148:WARNING:FILE(server.py custom_log_request 37):404 GET /pc/static/img/word.png (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 1.25ms
+20260119 104148:WARNING:FILE(server.py custom_log_request 37):404 GET /pc/static/js/layui.js (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 1.40ms
+20260119 104148:WARNING:FILE(server.py custom_log_request 37):404 GET /pc/static/js/jquery-2.1.1.js (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 1.69ms
+20260119 104148:WARNING:FILE(server.py custom_log_request 37):404 GET /pc/static/js/public.js (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.53ms
+20260119 104148:WARNING:FILE(server.py custom_log_request 37):404 GET /pc/static/js/marked.min.js (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.45ms
+20260119 104148:WARNING:FILE(server.py custom_log_request 37):404 GET /pc/static/js/sendHandle.js (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.49ms
+20260119 104149:INFO:FILE(server.py custom_log_request 37):304 GET /public/logo-indexdoc.ico (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.54ms
+20260119 104221:INFO:FILE(autoreload.py _check_file 197):/root/PycharmProjects/indexdoc-batch-generator/html/pc/public/batchDoc.html modified; restarting server
+20260119 104222:INFO:FILE(server.py <module> 87):Tornado Web Server Starting ......
+20260119 104222:INFO:FILE(server.py <module> 90):Tornado Web Server Start at Port 50003
+20260119 104223:INFO:FILE(server.py custom_log_request 37):200 GET /public/batchDoc.html (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 3.65ms
+20260119 104223:INFO:FILE(server.py custom_log_request 37):304 GET /public/static/css/batchDoc.css (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.46ms
+20260119 104223:WARNING:FILE(server.py custom_log_request 37):404 GET /pc/static/img/excel.png (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 1.16ms
+20260119 104223:WARNING:FILE(server.py custom_log_request 37):404 GET /pc/static/img/word.png (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.58ms
+20260119 104223:INFO:FILE(server.py custom_log_request 37):200 GET /public/static/js/jquery-2.1.1.js (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 1.95ms
+20260119 104223:WARNING:FILE(server.py custom_log_request 37):404 GET /public/static/js/public.js (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.60ms
+20260119 104223:WARNING:FILE(server.py custom_log_request 37):404 GET /public/static/js/marked.min.js (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.58ms
+20260119 104223:WARNING:FILE(server.py custom_log_request 37):404 GET /public/static/js/sendHandle.js (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.47ms
+20260119 104223:INFO:FILE(server.py custom_log_request 37):200 GET /public/static/js/layui.js (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 8.38ms
+20260119 104223:WARNING:FILE(server.py custom_log_request 37):404 GET /api/default (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.64ms
+20260119 104224:INFO:FILE(server.py custom_log_request 37):304 GET /public/logo-indexdoc.ico (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.58ms
+20260119 104259:INFO:FILE(autoreload.py _check_file 197):/root/PycharmProjects/indexdoc-batch-generator/html/pc/public/static/js modified; restarting server
+20260119 104300:INFO:FILE(server.py <module> 87):Tornado Web Server Starting ......
+20260119 104300:INFO:FILE(server.py <module> 90):Tornado Web Server Start at Port 50003
+20260119 104301:INFO:FILE(autoreload.py _check_file 197):/root/PycharmProjects/indexdoc-batch-generator/html/pc/public/static/js/public.js modified; restarting server
+20260119 104301:INFO:FILE(server.py <module> 87):Tornado Web Server Starting ......
+20260119 104301:INFO:FILE(server.py <module> 90):Tornado Web Server Start at Port 50003
+20260119 104303:INFO:FILE(server.py custom_log_request 37):304 GET /public/batchDoc.html (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 3.71ms
+20260119 104303:INFO:FILE(server.py custom_log_request 37):304 GET /public/static/css/batchDoc.css (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.51ms
+20260119 104303:WARNING:FILE(server.py custom_log_request 37):404 GET /pc/static/img/excel.png (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 1.27ms
+20260119 104303:WARNING:FILE(server.py custom_log_request 37):404 GET /pc/static/img/word.png (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.57ms
+20260119 104303:INFO:FILE(server.py custom_log_request 37):200 GET /public/static/js/public.js (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.41ms
+20260119 104303:WARNING:FILE(server.py custom_log_request 37):404 GET /public/static/js/marked.min.js (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.54ms
+20260119 104303:WARNING:FILE(server.py custom_log_request 37):404 GET /public/static/js/sendHandle.js (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.49ms
+20260119 104303:WARNING:FILE(server.py custom_log_request 37):404 GET /api/default (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.73ms
+20260119 104304:INFO:FILE(server.py custom_log_request 37):304 GET /public/logo-indexdoc.ico (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.59ms
+20260119 104442:INFO:FILE(autoreload.py _check_file 197):/root/PycharmProjects/indexdoc-batch-generator/html/pc/public/static/js modified; restarting server
+20260119 104442:INFO:FILE(server.py <module> 87):Tornado Web Server Starting ......
+20260119 104442:INFO:FILE(server.py <module> 90):Tornado Web Server Start at Port 50003
+20260119 104443:INFO:FILE(autoreload.py _check_file 197):/root/PycharmProjects/indexdoc-batch-generator/html/pc/public/static/js/marked.min.js modified; restarting server
+20260119 104444:INFO:FILE(server.py <module> 87):Tornado Web Server Starting ......
+20260119 104444:INFO:FILE(server.py <module> 90):Tornado Web Server Start at Port 50003
+20260119 104532:INFO:FILE(autoreload.py _check_file 197):/root/PycharmProjects/indexdoc-batch-generator/html/pc/public/static/js modified; restarting server
+20260119 104533:INFO:FILE(server.py <module> 87):Tornado Web Server Starting ......
+20260119 104533:INFO:FILE(server.py <module> 90):Tornado Web Server Start at Port 50003
+20260119 104552:INFO:FILE(autoreload.py _check_file 197):/root/PycharmProjects/indexdoc-batch-generator/html/pc/public/static/js modified; restarting server
+20260119 104552:INFO:FILE(server.py <module> 87):Tornado Web Server Starting ......
+20260119 104552:INFO:FILE(server.py <module> 90):Tornado Web Server Start at Port 50003
+20260119 104640:INFO:FILE(autoreload.py _check_file 197):/root/PycharmProjects/indexdoc-batch-generator/html/pc/public/static/js modified; restarting server
+20260119 104640:INFO:FILE(server.py <module> 87):Tornado Web Server Starting ......
+20260119 104640:INFO:FILE(server.py <module> 90):Tornado Web Server Start at Port 50003
+20260119 104658:INFO:FILE(autoreload.py _check_file 197):/root/PycharmProjects/indexdoc-batch-generator/html/pc/public/static/js/xlsx.js modified; restarting server
+20260119 104658:INFO:FILE(server.py <module> 87):Tornado Web Server Starting ......
+20260119 104658:INFO:FILE(server.py <module> 90):Tornado Web Server Start at Port 50003
+20260119 104725:INFO:FILE(autoreload.py _check_file 197):/root/PycharmProjects/indexdoc-batch-generator/html/pc/public/batchDoc.html modified; restarting server
+20260119 104725:INFO:FILE(server.py <module> 87):Tornado Web Server Starting ......
+20260119 104725:INFO:FILE(server.py <module> 90):Tornado Web Server Start at Port 50003
+20260119 104729:INFO:FILE(server.py custom_log_request 37):200 GET /public/batchDoc.html (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 3.65ms
+20260119 104729:INFO:FILE(server.py custom_log_request 37):304 GET /public/static/css/batchDoc.css (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.50ms
+20260119 104729:WARNING:FILE(server.py custom_log_request 37):404 GET /pc/static/img/excel.png (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 1.08ms
+20260119 104729:WARNING:FILE(server.py custom_log_request 37):404 GET /pc/static/img/word.png (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.53ms
+20260119 104729:INFO:FILE(server.py custom_log_request 37):304 GET /public/static/js/public.js (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.35ms
+20260119 104729:INFO:FILE(server.py custom_log_request 37):200 GET /public/static/js/xlsx.js (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 13.81ms
+20260119 104729:WARNING:FILE(server.py custom_log_request 37):404 GET /api/default (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.68ms
+20260119 104730:INFO:FILE(server.py custom_log_request 37):304 GET /public/logo-indexdoc.ico (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.59ms
+20260119 105306:INFO:FILE(autoreload.py _check_file 197):/root/PycharmProjects/indexdoc-batch-generator/html/pc/public/static modified; restarting server
+20260119 105307:INFO:FILE(server.py <module> 87):Tornado Web Server Starting ......
+20260119 105307:INFO:FILE(server.py <module> 90):Tornado Web Server Start at Port 50003
+20260119 105911:INFO:FILE(autoreload.py _check_file 197):/root/PycharmProjects/indexdoc-batch-generator/html/pc modified; restarting server
+20260119 105912:INFO:FILE(server.py <module> 87):Tornado Web Server Starting ......
+20260119 105912:INFO:FILE(server.py <module> 90):Tornado Web Server Start at Port 50003
+20260119 105921:INFO:FILE(autoreload.py _check_file 197):/root/PycharmProjects/indexdoc-batch-generator/html/pc/static/img modified; restarting server
+20260119 105921:INFO:FILE(server.py <module> 87):Tornado Web Server Starting ......
+20260119 105921:INFO:FILE(server.py <module> 90):Tornado Web Server Start at Port 50003
+20260119 110028:INFO:FILE(autoreload.py _check_file 197):/root/PycharmProjects/indexdoc-batch-generator/html/pc/public/batchDoc.html modified; restarting server
+20260119 110028:INFO:FILE(server.py <module> 87):Tornado Web Server Starting ......
+20260119 110028:INFO:FILE(server.py <module> 90):Tornado Web Server Start at Port 50003
+20260119 110031:INFO:FILE(server.py custom_log_request 37):200 GET /public/batchDoc.html (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 3.53ms
+20260119 110031:INFO:FILE(server.py custom_log_request 37):304 GET /public/static/css/batchDoc.css (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.57ms
+20260119 110031:WARNING:FILE(server.py custom_log_request 37):404 GET /public/static/img/excel.png (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 1.91ms
+20260119 110031:WARNING:FILE(server.py custom_log_request 37):404 GET /public/static/img/word.png (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 2.26ms
+20260119 110031:INFO:FILE(server.py custom_log_request 37):304 GET /public/static/js/public.js (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.71ms
+20260119 110031:INFO:FILE(server.py custom_log_request 37):304 GET /public/static/js/xlsx.js (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 2.64ms
+20260119 110031:WARNING:FILE(server.py custom_log_request 37):404 GET /api/default (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.67ms
+20260119 110033:INFO:FILE(server.py custom_log_request 37):304 GET /public/logo-indexdoc.ico (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.63ms
+20260119 110035:INFO:FILE(server.py custom_log_request 37):304 GET /public/batchDoc.html (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.60ms
+20260119 110035:WARNING:FILE(server.py custom_log_request 37):404 GET /public/static/img/excel.png (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.66ms
+20260119 110035:WARNING:FILE(server.py custom_log_request 37):404 GET /public/static/img/word.png (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.62ms
+20260119 110035:WARNING:FILE(server.py custom_log_request 37):404 GET /api/default (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.61ms
+20260119 110258:INFO:FILE(autoreload.py _check_file 197):/root/PycharmProjects/indexdoc-batch-generator/html/pc/static/img/excel.png modified; restarting server
+20260119 110259:INFO:FILE(server.py <module> 87):Tornado Web Server Starting ......
+20260119 110259:INFO:FILE(server.py <module> 90):Tornado Web Server Start at Port 50003
+20260119 110348:INFO:FILE(autoreload.py _check_file 197):/root/PycharmProjects/indexdoc-batch-generator/html/pc/public/static/img modified; restarting server
+20260119 110348:INFO:FILE(server.py <module> 87):Tornado Web Server Starting ......
+20260119 110348:INFO:FILE(server.py <module> 90):Tornado Web Server Start at Port 50003
+20260119 110354:INFO:FILE(server.py custom_log_request 37):304 GET /public/batchDoc.html (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 3.39ms
+20260119 110354:INFO:FILE(server.py custom_log_request 37):304 GET /public/static/css/batchDoc.css (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.61ms
+20260119 110354:INFO:FILE(server.py custom_log_request 37):200 GET /public/static/img/excel.png (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.43ms
+20260119 110354:INFO:FILE(server.py custom_log_request 37):200 GET /public/static/img/word.png (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.63ms
+20260119 110354:INFO:FILE(server.py custom_log_request 37):304 GET /public/static/js/public.js (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.34ms
+20260119 110354:INFO:FILE(server.py custom_log_request 37):304 GET /public/static/js/xlsx.js (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 2.13ms
+20260119 110354:WARNING:FILE(server.py custom_log_request 37):404 GET /api/default (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 1.27ms
+20260119 110355:INFO:FILE(server.py custom_log_request 37):304 GET /public/logo-indexdoc.ico (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.60ms
+20260119 110534:INFO:FILE(autoreload.py _check_file 197):/root/PycharmProjects/indexdoc-batch-generator/html/pc/public/batchDoc.html modified; restarting server
+20260119 110534:INFO:FILE(server.py <module> 87):Tornado Web Server Starting ......
+20260119 110534:INFO:FILE(server.py <module> 90):Tornado Web Server Start at Port 50003
+20260119 110712:INFO:FILE(autoreload.py _check_file 197):/root/PycharmProjects/indexdoc-batch-generator/html/pc/public/static/js modified; restarting server
+20260119 110713:INFO:FILE(server.py <module> 87):Tornado Web Server Starting ......
+20260119 110713:INFO:FILE(server.py <module> 90):Tornado Web Server Start at Port 50003
+20260119 110738:INFO:FILE(autoreload.py _check_file 197):/root/PycharmProjects/indexdoc-batch-generator/html/pc/public/batchDoc.html modified; restarting server
+20260119 110738:INFO:FILE(server.py <module> 87):Tornado Web Server Starting ......
+20260119 110738:INFO:FILE(server.py <module> 90):Tornado Web Server Start at Port 50003
+20260119 110741:INFO:FILE(server.py custom_log_request 37):200 GET /public/batchDoc.html (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 3.47ms
+20260119 110741:INFO:FILE(server.py custom_log_request 37):304 GET /public/static/css/batchDoc.css (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.43ms
+20260119 110741:INFO:FILE(server.py custom_log_request 37):304 GET /public/static/js/xlsx.js (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 2.07ms
+20260119 110742:INFO:FILE(server.py custom_log_request 37):200 GET /public/static/font/iconfont.woff2?v=293 (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.76ms
+20260119 110743:INFO:FILE(server.py custom_log_request 37):304 GET /public/logo-indexdoc.ico (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.61ms
+20260119 111925:WARNING:FILE(server.py custom_log_request 37):404 GET /api/file/4b4231ea8a0d11ef8a8652e2998f09f1.xlsx (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 1.47ms
+20260119 113815:INFO:FILE(autoreload.py _check_file 197):/root/PycharmProjects/indexdoc-batch-generator/html/pc/public/batchDoc.html modified; restarting server
+20260119 113815:INFO:FILE(server.py <module> 87):Tornado Web Server Starting ......
+20260119 113815:INFO:FILE(server.py <module> 90):Tornado Web Server Start at Port 50003
+20260119 145217:INFO:FILE(autoreload.py _check_file 197):/root/PycharmProjects/indexdoc-batch-generator/html/pc/public/batchDoc.html modified; restarting server
+20260119 145217:INFO:FILE(server.py <module> 87):Tornado Web Server Starting ......
+20260119 145217:INFO:FILE(server.py <module> 90):Tornado Web Server Start at Port 50003
+20260119 145220:INFO:FILE(server.py custom_log_request 37):200 GET /public/batchDoc.html (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 3.73ms
+20260119 145220:INFO:FILE(server.py custom_log_request 37):304 GET /public/static/css/batchDoc.css (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.53ms
+20260119 145220:INFO:FILE(server.py custom_log_request 37):304 GET /public/static/js/xlsx.js (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 2.20ms
+20260119 145221:INFO:FILE(server.py custom_log_request 37):304 GET /public/logo-indexdoc.ico (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.64ms
+20260119 145232:WARNING:FILE(server.py custom_log_request 37):404 GET /api/tmpfile/Excel%E6%A8%A1%E6%9D%BF%E6%A0%B7%E4%BE%8B.xlsx (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 1.51ms
+20260119 145325:INFO:FILE(autoreload.py _check_file 197):/root/PycharmProjects/indexdoc-batch-generator/html/pc/public/batchDoc.html modified; restarting server
+20260119 145325:INFO:FILE(server.py <module> 87):Tornado Web Server Starting ......
+20260119 145325:INFO:FILE(server.py <module> 90):Tornado Web Server Start at Port 50003
+20260119 145330:INFO:FILE(server.py custom_log_request 37):200 GET /public/batchDoc.html (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 3.60ms
+20260119 145333:WARNING:FILE(server.py custom_log_request 37):404 GET /api/tmpfile/Excel.xlsx (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 1.41ms
+20260119 145403:WARNING:FILE(server.py custom_log_request 37):404 GET /api/tmpfile/Excel.xlsx (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.72ms
+20260119 145404:WARNING:FILE(server.py custom_log_request 37):404 GET /favicon.ico (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.74ms
+20260119 145451:WARNING:FILE(server.py custom_log_request 37):404 GET /api/tmpfile/Excel (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.74ms
+20260119 145505:WARNING:FILE(server.py custom_log_request 37):404 GET /api/tmpfile/Excel (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.70ms
+20260119 145509:INFO:FILE(server.py <module> 94):Tornado Web Server Stop By KeyboardInterrupt!
+20260119 145511:INFO:FILE(server.py <module> 87):Tornado Web Server Starting ......
+20260119 145511:INFO:FILE(server.py <module> 90):Tornado Web Server Start at Port 50003
+20260119 145516:WARNING:FILE(server.py custom_log_request 37):404 GET /api/tmpfile/Excel (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 4.74ms
+20260119 145542:WARNING:FILE(server.py custom_log_request 37):404 GET /api/tmpfile?file_name=Excel (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 4.91ms
+20260119 145719:INFO:FILE(autoreload.py _check_file 197):/root/PycharmProjects/indexdoc-batch-generator/src/SysUrl.py modified; restarting server
+20260119 150112:INFO:FILE(server.py <module> 87):Tornado Web Server Starting ......
+20260119 150112:INFO:FILE(server.py <module> 90):Tornado Web Server Start at Port 50003
+20260119 150118:WARNING:FILE(server.py custom_log_request 37):404 GET /api/tmpfile?file_name=Excel (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 7.96ms
+20260119 150119:WARNING:FILE(server.py custom_log_request 37):404 GET /api/tmpfile?file_name=Excel (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 2.24ms
+20260119 150210:INFO:FILE(autoreload.py _check_file 197):/root/PycharmProjects/indexdoc-batch-generator/src/SysHandler.py modified; restarting server
+20260119 150211:INFO:FILE(server.py <module> 87):Tornado Web Server Starting ......
+20260119 150211:INFO:FILE(server.py <module> 90):Tornado Web Server Start at Port 50003
+20260119 150217:INFO:FILE(server.py custom_log_request 37):200 GET /api/tmpfile?file_name=Excel (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 6111.84ms
+20260119 150223:INFO:FILE(autoreload.py _check_file 197):/root/PycharmProjects/indexdoc-batch-generator/src/SysHandler.py modified; restarting server
+20260119 150224:INFO:FILE(server.py <module> 87):Tornado Web Server Starting ......
+20260119 150224:INFO:FILE(server.py <module> 90):Tornado Web Server Start at Port 50003
+20260119 150234:ERROR:FILE(BaseHandler.py get 165):[Errno 2] No such file or directory: '/root/PycharmProjects/indexdoc-batch-generator/tmp/Excel'
+20260119 150234:ERROR:FILE(BaseHandler.py get 166):Traceback (most recent call last):
+  File "/root/PycharmProjects/indexdoc-batch-generator/src/BaseHandler.py", line 158, in get
+    await asyncio.to_thread(self.myget, *args, **kwargs)
+  File "/usr/lib/python3.11/asyncio/threads.py", line 25, in to_thread
+    return await loop.run_in_executor(None, func_call)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/PycharmProjects/indexdoc-batch-generator/src/SysHandler.py", line 89, in myget
+    with open(filepath, 'rb') as f:
+         ^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/root/PycharmProjects/indexdoc-batch-generator/tmp/Excel'
+
+20260119 150234:WARNING:FILE(server.py custom_log_request 37):403 GET /api/tmpfile?file_name=Excel (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 6920.66ms
+20260119 150249:INFO:FILE(server.py custom_log_request 37):200 GET /api/tmpfile?file_name=Excel.xlsx (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 4231.69ms
+20260119 150557:INFO:FILE(autoreload.py _check_file 197):/root/PycharmProjects/indexdoc-batch-generator/src/SysHandler.py modified; restarting server
+20260119 150558:INFO:FILE(server.py <module> 87):Tornado Web Server Starting ......
+20260119 150558:INFO:FILE(server.py <module> 90):Tornado Web Server Start at Port 50003
+20260119 150605:ERROR:FILE(BaseHandler.py get 165):[Errno 2] No such file or directory: '/root/PycharmProjects/indexdoc-batch-generator/tmp/Excel'
+20260119 150605:ERROR:FILE(BaseHandler.py get 166):Traceback (most recent call last):
+  File "/root/PycharmProjects/indexdoc-batch-generator/src/BaseHandler.py", line 158, in get
+    await asyncio.to_thread(self.myget, *args, **kwargs)
+  File "/usr/lib/python3.11/asyncio/threads.py", line 25, in to_thread
+    return await loop.run_in_executor(None, func_call)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/PycharmProjects/indexdoc-batch-generator/src/SysHandler.py", line 107, in myget
+    with open(filepath, 'rb') as f:
+         ^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/root/PycharmProjects/indexdoc-batch-generator/tmp/Excel'
+
+20260119 150605:WARNING:FILE(server.py custom_log_request 37):403 GET /api/tmpfile?file_name=Excel (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 8.50ms
+20260119 150606:ERROR:FILE(BaseHandler.py get 165):[Errno 2] No such file or directory: '/root/PycharmProjects/indexdoc-batch-generator/tmp/Excel'
+20260119 150606:ERROR:FILE(BaseHandler.py get 166):Traceback (most recent call last):
+  File "/root/PycharmProjects/indexdoc-batch-generator/src/BaseHandler.py", line 158, in get
+    await asyncio.to_thread(self.myget, *args, **kwargs)
+  File "/usr/lib/python3.11/asyncio/threads.py", line 25, in to_thread
+    return await loop.run_in_executor(None, func_call)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/PycharmProjects/indexdoc-batch-generator/src/SysHandler.py", line 107, in myget
+    with open(filepath, 'rb') as f:
+         ^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/root/PycharmProjects/indexdoc-batch-generator/tmp/Excel'
+
+20260119 150606:WARNING:FILE(server.py custom_log_request 37):403 GET /api/tmpfile?file_name=Excel (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 3.59ms
+20260119 150607:ERROR:FILE(BaseHandler.py get 165):[Errno 2] No such file or directory: '/root/PycharmProjects/indexdoc-batch-generator/tmp/Excel'
+20260119 150607:ERROR:FILE(BaseHandler.py get 166):Traceback (most recent call last):
+  File "/root/PycharmProjects/indexdoc-batch-generator/src/BaseHandler.py", line 158, in get
+    await asyncio.to_thread(self.myget, *args, **kwargs)
+  File "/usr/lib/python3.11/asyncio/threads.py", line 25, in to_thread
+    return await loop.run_in_executor(None, func_call)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/PycharmProjects/indexdoc-batch-generator/src/SysHandler.py", line 107, in myget
+    with open(filepath, 'rb') as f:
+         ^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/root/PycharmProjects/indexdoc-batch-generator/tmp/Excel'
+
+20260119 150607:WARNING:FILE(server.py custom_log_request 37):403 GET /api/tmpfile?file_name=Excel (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 2.87ms
+20260119 150608:ERROR:FILE(BaseHandler.py get 165):[Errno 2] No such file or directory: '/root/PycharmProjects/indexdoc-batch-generator/tmp/Excel'
+20260119 150608:ERROR:FILE(BaseHandler.py get 166):Traceback (most recent call last):
+  File "/root/PycharmProjects/indexdoc-batch-generator/src/BaseHandler.py", line 158, in get
+    await asyncio.to_thread(self.myget, *args, **kwargs)
+  File "/usr/lib/python3.11/asyncio/threads.py", line 25, in to_thread
+    return await loop.run_in_executor(None, func_call)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/PycharmProjects/indexdoc-batch-generator/src/SysHandler.py", line 107, in myget
+    with open(filepath, 'rb') as f:
+         ^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/root/PycharmProjects/indexdoc-batch-generator/tmp/Excel'
+
+20260119 150608:WARNING:FILE(server.py custom_log_request 37):403 GET /api/tmpfile?file_name=Excel (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 3.10ms
+20260119 150613:ERROR:FILE(BaseHandler.py get 165):[Errno 2] No such file or directory: '/root/PycharmProjects/indexdoc-batch-generator/tmp/Excel'
+20260119 150613:ERROR:FILE(BaseHandler.py get 166):Traceback (most recent call last):
+  File "/root/PycharmProjects/indexdoc-batch-generator/src/BaseHandler.py", line 158, in get
+    await asyncio.to_thread(self.myget, *args, **kwargs)
+  File "/usr/lib/python3.11/asyncio/threads.py", line 25, in to_thread
+    return await loop.run_in_executor(None, func_call)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/PycharmProjects/indexdoc-batch-generator/src/SysHandler.py", line 107, in myget
+    with open(filepath, 'rb') as f:
+         ^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/root/PycharmProjects/indexdoc-batch-generator/tmp/Excel'
+
+20260119 150613:WARNING:FILE(server.py custom_log_request 37):403 GET /api/tmpfile?file_name=Excel (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 2.88ms
+20260119 150619:INFO:FILE(server.py custom_log_request 37):304 GET /api/tmpfile?file_name=Excel.xlsx (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 2.35ms
+20260119 150649:ERROR:FILE(BaseHandler.py get 165):[Errno 2] No such file or directory: '/root/PycharmProjects/indexdoc-batch-generator/tmp/Excel'
+20260119 150649:ERROR:FILE(BaseHandler.py get 166):Traceback (most recent call last):
+  File "/root/PycharmProjects/indexdoc-batch-generator/src/BaseHandler.py", line 158, in get
+    await asyncio.to_thread(self.myget, *args, **kwargs)
+  File "/usr/lib/python3.11/asyncio/threads.py", line 25, in to_thread
+    return await loop.run_in_executor(None, func_call)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/PycharmProjects/indexdoc-batch-generator/src/SysHandler.py", line 107, in myget
+    with open(filepath, 'rb') as f:
+         ^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/root/PycharmProjects/indexdoc-batch-generator/tmp/Excel'
+
+20260119 150649:WARNING:FILE(server.py custom_log_request 37):403 GET /api/tmpfile?file_name=Excel (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 14.99ms
+20260119 150712:INFO:FILE(autoreload.py _check_file 197):/root/PycharmProjects/indexdoc-batch-generator/html/pc/public/batchDoc.html modified; restarting server
+20260119 150713:INFO:FILE(server.py <module> 87):Tornado Web Server Starting ......
+20260119 150713:INFO:FILE(server.py <module> 90):Tornado Web Server Start at Port 50003
+20260119 150739:INFO:FILE(server.py custom_log_request 37):200 GET /api/tmpfile?file_name=word.docx (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 4.75ms
+20260119 150839:ERROR:FILE(BaseHandler.py get 165):[Errno 2] No such file or directory: '/root/PycharmProjects/indexdoc-batch-generator/tmp/Excel'
+20260119 150839:ERROR:FILE(BaseHandler.py get 166):Traceback (most recent call last):
+  File "/root/PycharmProjects/indexdoc-batch-generator/src/BaseHandler.py", line 158, in get
+    await asyncio.to_thread(self.myget, *args, **kwargs)
+  File "/usr/lib/python3.11/asyncio/threads.py", line 25, in to_thread
+    return await loop.run_in_executor(None, func_call)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/PycharmProjects/indexdoc-batch-generator/src/SysHandler.py", line 107, in myget
+    with open(filepath, 'rb') as f:
+         ^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/root/PycharmProjects/indexdoc-batch-generator/tmp/Excel'
+
+20260119 150839:WARNING:FILE(server.py custom_log_request 37):403 GET /api/tmpfile?file_name=Excel (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 9.14ms
+20260119 152147:WARNING:FILE(server.py custom_log_request 37):404 GET /api/file/24ec20f48a0e11ef90c752e2998f09f1.docx (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 2.59ms
+20260119 152522:INFO:FILE(autoreload.py _check_file 197):/root/PycharmProjects/indexdoc-batch-generator/src/domain/doc_assistant/DocAssistantHandler.py modified; restarting server
+20260119 152523:INFO:FILE(server.py <module> 87):Tornado Web Server Starting ......
+20260119 152523:INFO:FILE(server.py <module> 90):Tornado Web Server Start at Port 50003
+20260119 152555:INFO:FILE(server.py custom_log_request 37):200 GET /public/batchDoc.html (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 12.78ms
+20260119 152555:INFO:FILE(server.py custom_log_request 37):304 GET /public/static/css/batchDoc.css (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 1.45ms
+20260119 152555:INFO:FILE(server.py custom_log_request 37):304 GET /public/static/js/xlsx.js (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 2.61ms
+20260119 152556:INFO:FILE(server.py custom_log_request 37):304 GET /public/logo-indexdoc.ico (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 1.01ms
+20260119 152601:INFO:FILE(server.py custom_log_request 37):200 POST /api/doc_assistant/getUUid (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 1.51ms
+20260119 152739:INFO:FILE(autoreload.py _check_file 197):/root/PycharmProjects/indexdoc-batch-generator/html/pc/public/batchDoc.html modified; restarting server
+20260119 152740:INFO:FILE(server.py <module> 87):Tornado Web Server Starting ......
+20260119 152740:INFO:FILE(server.py <module> 90):Tornado Web Server Start at Port 50003
+20260119 152744:INFO:FILE(server.py custom_log_request 37):200 GET /public/batchDoc.html (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 11.44ms
+20260119 152749:INFO:FILE(server.py custom_log_request 37):200 POST /api/doc_assistant/getUUid (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 1.51ms
+20260119 152807:INFO:FILE(autoreload.py _check_file 197):/root/PycharmProjects/indexdoc-batch-generator/html/pc/public/batchDoc.html modified; restarting server
+20260119 152808:INFO:FILE(server.py <module> 87):Tornado Web Server Starting ......
+20260119 152808:INFO:FILE(server.py <module> 90):Tornado Web Server Start at Port 50003
+20260119 152810:INFO:FILE(server.py custom_log_request 37):200 GET /public/batchDoc.html (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 11.19ms
+20260119 152815:INFO:FILE(server.py custom_log_request 37):200 POST /api/doc_assistant/getUUid (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 2.13ms
+20260119 152815:WARNING:FILE(connection.py connect 440):Failed to connect to 127.0.0.1:9000
+Traceback (most recent call last):
+  File "/root/PycharmProjects/indexdoc-editor/.venv/lib/python3.11/site-packages/clickhouse_driver/connection.py", line 428, in connect
+    return self._init_connection(host, port)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/PycharmProjects/indexdoc-editor/.venv/lib/python3.11/site-packages/clickhouse_driver/connection.py", line 358, in _init_connection
+    self.socket = self._create_socket(host, port)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/PycharmProjects/indexdoc-editor/.venv/lib/python3.11/site-packages/clickhouse_driver/connection.py", line 326, in _create_socket
+    raise err
+  File "/root/PycharmProjects/indexdoc-editor/.venv/lib/python3.11/site-packages/clickhouse_driver/connection.py", line 317, in _create_socket
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+20260119 152815:ERROR:FILE(CKPool.py exesql 130):ck sql 1768807695.795119 fail:Code: 210. Connection refused (127.0.0.1:9000)
+20260119 152815:ERROR:FILE(DocAssistantHandler.py mypost 228):Code: 210. Connection refused (127.0.0.1:9000)
+20260119 152815:ERROR:FILE(DocAssistantHandler.py mypost 229):Traceback (most recent call last):
+  File "/root/PycharmProjects/indexdoc-batch-generator/src/domain/doc_assistant/DocAssistantHandler.py", line 195, in mypost
+    _entity = UserFileServ.create(_file_uuid, None, _file_name
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/PycharmProjects/indexdoc-batch-generator/src/domain/sysdomain/serv/UserFileServ.py", line 7, in create
+    UserFileDaoCK.insert(newentity)
+  File "/root/PycharmProjects/indexdoc-batch-generator/src/domain/sysdomain/daock/UserFileDaoCK.py", line 12, in insert
+    exesql(sql, [(entity.user_file_id ,entity.file_uuid ,entity.upload_user_id ,entity.file_name ,entity.file_type ,entity.content_type ,entity.file_storage ,entity.cdn_url ,entity.file_suffix ,entity.file_content ,entity.file_preview ,entity.file_summary ,entity.upload_time ,IDUtil.get_long())])
+  File "/root/PycharmProjects/indexdoc-batch-generator/src/sysdw.py", line 16, in exesql
+    rts = pool_exesql(sql,params)
+          ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/PycharmProjects/indexdoc-batch-generator/src/sysdw.py", line 154, in pool_exesql
+    return pool.exesql(sql,params)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/PycharmProjects/indexdoc-batch-generator/src/utils/database/clickhouse/CKPool.py", line 132, in exesql
+    raise e
+  File "/root/PycharmProjects/indexdoc-batch-generator/src/utils/database/clickhouse/CKPool.py", line 126, in exesql
+    rts = client.execute(sql,params)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/PycharmProjects/indexdoc-batch-generator/src/utils/database/clickhouse/CKPool.py", line 24, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/PycharmProjects/indexdoc-editor/.venv/lib/python3.11/site-packages/clickhouse_driver/client.py", line 370, in execute
+    with self.disconnect_on_error(query, settings):
+  File "/usr/lib/python3.11/contextlib.py", line 137, in __enter__
+    return next(self.gen)
+           ^^^^^^^^^^^^^^
+  File "/root/PycharmProjects/indexdoc-editor/.venv/lib/python3.11/site-packages/clickhouse_driver/client.py", line 313, in disconnect_on_error
+    self.establish_connection(settings)
+  File "/root/PycharmProjects/indexdoc-editor/.venv/lib/python3.11/site-packages/clickhouse_driver/client.py", line 300, in establish_connection
+    self.connection.force_connect()
+  File "/root/PycharmProjects/indexdoc-editor/.venv/lib/python3.11/site-packages/clickhouse_driver/connection.py", line 278, in force_connect
+    self.connect()
+  File "/root/PycharmProjects/indexdoc-editor/.venv/lib/python3.11/site-packages/clickhouse_driver/connection.py", line 449, in connect
+    raise err
+clickhouse_driver.errors.NetworkError: Code: 210. Connection refused (127.0.0.1:9000)
+
+20260119 152815:INFO:FILE(server.py custom_log_request 37):200 POST /api/doc_assistant/uploadfile (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 27.63ms
+20260119 152815:WARNING:FILE(server.py custom_log_request 37):404 GET /public/phone.html (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 3.78ms
+20260119 152853:INFO:FILE(autoreload.py _check_file 197):/root/PycharmProjects/indexdoc-batch-generator/html/pc/public/batchDoc.html modified; restarting server
+20260119 152854:INFO:FILE(server.py <module> 87):Tornado Web Server Starting ......
+20260119 152854:INFO:FILE(server.py <module> 90):Tornado Web Server Start at Port 50003
+20260119 153006:INFO:FILE(server.py custom_log_request 37):200 GET /public/batchDoc.html (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 12.70ms
+20260119 153012:INFO:FILE(server.py custom_log_request 37):200 POST /api/doc_assistant/getUUid (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 2.12ms
+20260119 153012:WARNING:FILE(unix.py _get_localzone_name 148):/etc/timezone is deprecated in some distros, and no longer reliable. tzlocal is ignoring it, and you can likely delete it.
+20260119 153014:INFO:FILE(server.py custom_log_request 37):200 POST /api/doc_assistant/uploadfile (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 1558.13ms
+20260119 153053:INFO:FILE(server.py custom_log_request 37):200 POST /api/doc_assistant/getUUid (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 1.51ms
+20260119 153122:INFO:FILE(autoreload.py _check_file 197):/root/PycharmProjects/indexdoc-batch-generator/html/pc/public/batchDoc.html modified; restarting server
+20260119 153123:INFO:FILE(server.py <module> 87):Tornado Web Server Starting ......
+20260119 153123:INFO:FILE(server.py <module> 90):Tornado Web Server Start at Port 50003
+20260119 153124:INFO:FILE(server.py custom_log_request 37):200 GET /public/batchDoc.html (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 10.58ms
+20260119 153131:INFO:FILE(server.py custom_log_request 37):200 POST /api/doc_assistant/getUUid (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 1.89ms
+20260119 153131:WARNING:FILE(unix.py _get_localzone_name 148):/etc/timezone is deprecated in some distros, and no longer reliable. tzlocal is ignoring it, and you can likely delete it.
+20260119 153132:INFO:FILE(server.py custom_log_request 37):200 POST /api/doc_assistant/uploadfile (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 790.48ms
+20260119 153136:INFO:FILE(server.py custom_log_request 37):200 POST /api/doc_assistant/getUUid (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 1.12ms
+20260119 153137:INFO:FILE(server.py custom_log_request 37):200 POST /api/doc_assistant/uploadfile (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 758.11ms
+20260119 153207:INFO:FILE(autoreload.py _check_file 197):/root/PycharmProjects/indexdoc-batch-generator/html/pc/public/batchDoc.html modified; restarting server
+20260119 153208:INFO:FILE(server.py <module> 87):Tornado Web Server Starting ......
+20260119 153208:INFO:FILE(server.py <module> 90):Tornado Web Server Start at Port 50003
+20260119 153219:INFO:FILE(autoreload.py _check_file 197):/root/PycharmProjects/indexdoc-batch-generator/html/pc/public/batchDoc.html modified; restarting server
+20260119 153220:INFO:FILE(server.py <module> 87):Tornado Web Server Starting ......
+20260119 153220:INFO:FILE(server.py <module> 90):Tornado Web Server Start at Port 50003
+20260119 153223:INFO:FILE(server.py custom_log_request 37):200 GET /public/batchDoc.html (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 10.50ms
+20260119 153229:INFO:FILE(server.py custom_log_request 37):200 POST /api/doc_assistant/getUUid (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 1.94ms
+20260119 153229:WARNING:FILE(unix.py _get_localzone_name 148):/etc/timezone is deprecated in some distros, and no longer reliable. tzlocal is ignoring it, and you can likely delete it.
+20260119 153230:INFO:FILE(server.py custom_log_request 37):200 POST /api/doc_assistant/uploadfile (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 684.78ms
+20260119 153235:INFO:FILE(server.py custom_log_request 37):200 POST /api/doc_assistant/getUUid (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 1.07ms
+20260119 153236:INFO:FILE(server.py custom_log_request 37):200 POST /api/doc_assistant/uploadfile (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 569.63ms
+20260119 153242:WARNING:FILE(server.py custom_log_request 37):401 POST /api/doc_assistant/filegenerate (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 9.24ms
+20260119 153348:INFO:FILE(autoreload.py _check_file 197):/root/PycharmProjects/indexdoc-batch-generator/src/domain/doc_assistant/DocAssistantHandler.py modified; restarting server
+20260119 153349:INFO:FILE(server.py <module> 87):Tornado Web Server Starting ......
+20260119 153349:INFO:FILE(server.py <module> 90):Tornado Web Server Start at Port 50003
+20260119 153349:INFO:FILE(server.py custom_log_request 37):304 GET /public/batchDoc.html (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 11.04ms
+20260119 153357:INFO:FILE(server.py custom_log_request 37):200 POST /api/doc_assistant/getUUid (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 2.02ms
+20260119 153357:WARNING:FILE(unix.py _get_localzone_name 148):/etc/timezone is deprecated in some distros, and no longer reliable. tzlocal is ignoring it, and you can likely delete it.
+20260119 153357:INFO:FILE(server.py custom_log_request 37):200 POST /api/doc_assistant/uploadfile (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 713.18ms
+20260119 153402:INFO:FILE(server.py custom_log_request 37):200 POST /api/doc_assistant/getUUid (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 1.08ms
+20260119 153403:INFO:FILE(server.py custom_log_request 37):200 POST /api/doc_assistant/uploadfile (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 583.49ms
+20260119 153404:ERROR:FILE(DocAssistantHandler.py mypost 394):'NoneType' object is not subscriptable
+20260119 153404:ERROR:FILE(DocAssistantHandler.py mypost 395):Traceback (most recent call last):
+  File "/root/PycharmProjects/indexdoc-batch-generator/src/domain/doc_assistant/DocAssistantHandler.py", line 343, in mypost
+    _entity = UserFileServ.create(file_uuid, user['sys_user_id'], newfilename + '.docx'
+                                             ~~~~^^^^^^^^^^^^^^^
+TypeError: 'NoneType' object is not subscriptable
+
+20260119 153404:INFO:FILE(server.py custom_log_request 37):200 POST /api/doc_assistant/filegenerate (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 50.35ms
+20260119 153404:WARNING:FILE(server.py custom_log_request 37):404 GET /public/phone.html (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 3.51ms
+20260119 153417:INFO:FILE(server.py custom_log_request 37):304 GET /public/batchDoc.html (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 1.23ms
+20260119 153447:INFO:FILE(autoreload.py _check_file 197):/root/PycharmProjects/indexdoc-batch-generator/src/domain/doc_assistant/DocAssistantHandler.py modified; restarting server
+20260119 153448:INFO:FILE(server.py <module> 87):Tornado Web Server Starting ......
+20260119 153448:INFO:FILE(server.py <module> 90):Tornado Web Server Start at Port 50003
+20260119 153452:INFO:FILE(server.py custom_log_request 37):200 POST /api/doc_assistant/getUUid (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 1.97ms
+20260119 153452:WARNING:FILE(unix.py _get_localzone_name 148):/etc/timezone is deprecated in some distros, and no longer reliable. tzlocal is ignoring it, and you can likely delete it.
+20260119 153453:INFO:FILE(server.py custom_log_request 37):200 POST /api/doc_assistant/uploadfile (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 684.45ms
+20260119 153457:INFO:FILE(server.py custom_log_request 37):200 POST /api/doc_assistant/getUUid (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 1.41ms
+20260119 153458:INFO:FILE(server.py custom_log_request 37):200 POST /api/doc_assistant/uploadfile (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 596.04ms
+20260119 153506:ERROR:FILE(DocAssistantHandler.py mypost 394):'LAY_INDEX_INIT'
+20260119 153506:ERROR:FILE(DocAssistantHandler.py mypost 395):Traceback (most recent call last):
+  File "/root/PycharmProjects/indexdoc-batch-generator/src/domain/doc_assistant/DocAssistantHandler.py", line 338, in mypost
+    replacements = {f'{{{col}}}': _one_checkdata[col] for col in columns}
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/PycharmProjects/indexdoc-batch-generator/src/domain/doc_assistant/DocAssistantHandler.py", line 338, in <dictcomp>
+    replacements = {f'{{{col}}}': _one_checkdata[col] for col in columns}
+                                  ~~~~~~~~~~~~~~^^^^^
+KeyError: 'LAY_INDEX_INIT'
+
+20260119 153506:INFO:FILE(server.py custom_log_request 37):200 POST /api/doc_assistant/filegenerate (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 6171.89ms
+20260119 153506:WARNING:FILE(server.py custom_log_request 37):404 GET /public/phone.html (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 2.04ms
+20260119 153815:INFO:FILE(server.py custom_log_request 37):304 GET /public/batchDoc.html (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 11.90ms
+20260119 153821:INFO:FILE(server.py custom_log_request 37):200 POST /api/doc_assistant/getUUid (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 1.54ms
+20260119 153822:INFO:FILE(server.py custom_log_request 37):200 POST /api/doc_assistant/uploadfile (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 776.47ms
+20260119 153827:INFO:FILE(server.py custom_log_request 37):200 POST /api/doc_assistant/getUUid (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 1.17ms
+20260119 153828:INFO:FILE(server.py custom_log_request 37):200 POST /api/doc_assistant/uploadfile (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 638.08ms
+20260119 154332:ERROR:FILE(DocAssistantHandler.py mypost 394):'LAY_INDEX_INIT'
+20260119 154332:ERROR:FILE(DocAssistantHandler.py mypost 395):Traceback (most recent call last):
+  File "/root/PycharmProjects/indexdoc-batch-generator/src/domain/doc_assistant/DocAssistantHandler.py", line 338, in mypost
+    replacements = {f'{{{col}}}': _one_checkdata[col] for col in columns}
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/PycharmProjects/indexdoc-batch-generator/src/domain/doc_assistant/DocAssistantHandler.py", line 338, in <dictcomp>
+    replacements = {f'{{{col}}}': _one_checkdata[col] for col in columns}
+                                  ~~~~~~~~~~~~~~^^^^^
+KeyError: 'LAY_INDEX_INIT'
+
+20260119 154332:INFO:FILE(server.py custom_log_request 37):200 POST /api/doc_assistant/filegenerate (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 302159.19ms
+20260119 154332:WARNING:FILE(server.py custom_log_request 37):404 GET /public/phone.html (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 1.70ms
+20260119 155021:INFO:FILE(autoreload.py _check_file 197):/root/PycharmProjects/indexdoc-batch-generator/html/pc/public/batchDoc.html modified; restarting server
+20260119 155022:INFO:FILE(server.py <module> 87):Tornado Web Server Starting ......
+20260119 155022:INFO:FILE(server.py <module> 90):Tornado Web Server Start at Port 50003
+20260119 155200:INFO:FILE(autoreload.py _check_file 197):/root/PycharmProjects/indexdoc-batch-generator/src/domain/doc_assistant/DocAssistantHandler.py modified; restarting server
+20260119 155223:INFO:FILE(server.py <module> 87):Tornado Web Server Starting ......
+20260119 155223:INFO:FILE(server.py <module> 90):Tornado Web Server Start at Port 50003
+20260119 155233:INFO:FILE(server.py custom_log_request 37):200 GET /public/batchDoc.html (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 16.24ms
+20260119 155334:INFO:FILE(autoreload.py _check_file 197):/root/PycharmProjects/indexdoc-batch-generator/html/pc/public/batchDoc.html modified; restarting server
+20260119 155335:INFO:FILE(server.py <module> 87):Tornado Web Server Starting ......
+20260119 155335:INFO:FILE(server.py <module> 90):Tornado Web Server Start at Port 50003
+20260119 155338:INFO:FILE(server.py custom_log_request 37):200 GET /public/batchDoc.html (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 11.86ms
+20260119 155343:INFO:FILE(server.py custom_log_request 37):200 POST /api/doc_assistant/getUUid (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 1.92ms
+20260119 155343:WARNING:FILE(unix.py _get_localzone_name 148):/etc/timezone is deprecated in some distros, and no longer reliable. tzlocal is ignoring it, and you can likely delete it.
+20260119 155344:INFO:FILE(server.py custom_log_request 37):200 POST /api/doc_assistant/uploadfile (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 937.37ms
+20260119 155348:INFO:FILE(server.py custom_log_request 37):200 POST /api/doc_assistant/getUUid (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 1.06ms
+20260119 155349:INFO:FILE(server.py custom_log_request 37):200 POST /api/doc_assistant/uploadfile (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 701.06ms
+20260119 155409:ERROR:FILE(DocAssistantHandler.py mypost 398):'LAY_INDEX_INIT'
+20260119 155409:ERROR:FILE(DocAssistantHandler.py mypost 399):Traceback (most recent call last):
+  File "/root/PycharmProjects/indexdoc-batch-generator/src/domain/doc_assistant/DocAssistantHandler.py", line 342, in mypost
+    replacements = {f'{{{col}}}': _one_checkdata[col] for col in columns}
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/PycharmProjects/indexdoc-batch-generator/src/domain/doc_assistant/DocAssistantHandler.py", line 342, in <dictcomp>
+    replacements = {f'{{{col}}}': _one_checkdata[col] for col in columns}
+                                  ~~~~~~~~~~~~~~^^^^^
+KeyError: 'LAY_INDEX_INIT'
+
+20260119 155409:INFO:FILE(server.py custom_log_request 37):200 POST /api/doc_assistant/filegenerate (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 15068.57ms
+20260119 155409:WARNING:FILE(server.py custom_log_request 37):404 GET /public/phone.html (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 3.65ms
+20260119 155500:INFO:FILE(autoreload.py _check_file 197):/root/PycharmProjects/indexdoc-batch-generator/src/domain/doc_assistant/DocAssistantHandler.py modified; restarting server
+20260119 155501:INFO:FILE(server.py <module> 87):Tornado Web Server Starting ......
+20260119 155501:INFO:FILE(server.py <module> 90):Tornado Web Server Start at Port 50003
+20260119 155505:INFO:FILE(server.py custom_log_request 37):304 GET /public/batchDoc.html (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 10.69ms
+20260119 155505:INFO:FILE(server.py custom_log_request 37):304 GET /public/static/css/batchDoc.css (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 1.58ms
+20260119 155505:INFO:FILE(server.py custom_log_request 37):304 GET /public/static/js/xlsx.js (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 2.75ms
+20260119 155506:INFO:FILE(server.py custom_log_request 37):304 GET /public/logo-indexdoc.ico (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.98ms
+20260119 155510:INFO:FILE(server.py custom_log_request 37):200 POST /api/doc_assistant/getUUid (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 1.25ms
+20260119 155510:WARNING:FILE(unix.py _get_localzone_name 148):/etc/timezone is deprecated in some distros, and no longer reliable. tzlocal is ignoring it, and you can likely delete it.
+20260119 155511:INFO:FILE(server.py custom_log_request 37):200 POST /api/doc_assistant/uploadfile (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 691.91ms
+20260119 155515:INFO:FILE(server.py custom_log_request 37):200 POST /api/doc_assistant/getUUid (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 1.12ms
+20260119 155515:INFO:FILE(server.py custom_log_request 37):200 POST /api/doc_assistant/uploadfile (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 593.17ms
+20260119 155531:ERROR:FILE(DocAssistantHandler.py mypost 398):'ApiFileGenerateHandler' object has no attribute 'current_None'
+20260119 155531:ERROR:FILE(DocAssistantHandler.py mypost 399):Traceback (most recent call last):
+  File "/root/PycharmProjects/indexdoc-batch-generator/src/domain/doc_assistant/DocAssistantHandler.py", line 380, in mypost
+    UserUseLogServ.create(self.current_None, self.request.headers.get('X-Real-IP'), _local_ip,
+                          ^^^^^^^^^^^^^^^^^
+AttributeError: 'ApiFileGenerateHandler' object has no attribute 'current_None'
+
+20260119 155531:INFO:FILE(server.py custom_log_request 37):200 POST /api/doc_assistant/filegenerate (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 14220.58ms
+20260119 155531:WARNING:FILE(server.py custom_log_request 37):404 GET /public/phone.html (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 5.46ms
+20260119 155610:INFO:FILE(autoreload.py _check_file 197):/root/PycharmProjects/indexdoc-batch-generator/src/domain/doc_assistant/DocAssistantHandler.py modified; restarting server
+20260119 155611:INFO:FILE(server.py <module> 87):Tornado Web Server Starting ......
+20260119 155611:INFO:FILE(server.py <module> 90):Tornado Web Server Start at Port 50003
+20260119 155613:INFO:FILE(server.py custom_log_request 37):304 GET /public/batchDoc.html (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 10.68ms
+20260119 155617:INFO:FILE(server.py custom_log_request 37):200 POST /api/doc_assistant/getUUid (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 1.88ms
+20260119 155618:WARNING:FILE(unix.py _get_localzone_name 148):/etc/timezone is deprecated in some distros, and no longer reliable. tzlocal is ignoring it, and you can likely delete it.
+20260119 155618:INFO:FILE(server.py custom_log_request 37):200 POST /api/doc_assistant/uploadfile (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 694.81ms
+20260119 155623:INFO:FILE(server.py custom_log_request 37):200 POST /api/doc_assistant/getUUid (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 1.09ms
+20260119 155623:INFO:FILE(server.py custom_log_request 37):200 POST /api/doc_assistant/uploadfile (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 593.21ms
+20260119 155642:INFO:FILE(server.py custom_log_request 37):200 POST /api/doc_assistant/filegenerate (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 14561.09ms
+20260119 155651:INFO:FILE(server.py custom_log_request 37):200 POST /api/doc_assistant/getbatchfile (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 17.58ms
+20260119 155651:INFO:FILE(server.py custom_log_request 37):200 GET /api/doc_assistant/file/output20260119_155651.zip (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 2.51ms
+20260119 155824:INFO:FILE(autoreload.py _check_file 197):/root/PycharmProjects/indexdoc-batch-generator/html/pc/public modified; restarting server
+20260119 155826:INFO:FILE(server.py <module> 87):Tornado Web Server Starting ......
+20260119 155826:INFO:FILE(server.py <module> 90):Tornado Web Server Start at Port 50003
+20260119 155827:INFO:FILE(autoreload.py _check_file 197):/root/PycharmProjects/indexdoc-batch-generator/html/pc/public/pdfPreview.html modified; restarting server
+20260119 155828:INFO:FILE(server.py <module> 87):Tornado Web Server Starting ......
+20260119 155828:INFO:FILE(server.py <module> 90):Tornado Web Server Start at Port 50003
+20260119 155859:INFO:FILE(autoreload.py _check_file 197):/root/PycharmProjects/indexdoc-batch-generator/html/pc/public/pdfPreview.html modified; restarting server
+20260119 155900:INFO:FILE(server.py <module> 87):Tornado Web Server Starting ......
+20260119 155900:INFO:FILE(server.py <module> 90):Tornado Web Server Start at Port 50003
+20260119 160016:INFO:FILE(autoreload.py _check_file 197):/root/PycharmProjects/indexdoc-batch-generator/src/SysHandler.py modified; restarting server
+20260119 160017:INFO:FILE(server.py <module> 87):Tornado Web Server Starting ......
+20260119 160017:INFO:FILE(server.py <module> 90):Tornado Web Server Start at Port 50003
+20260119 160032:INFO:FILE(autoreload.py _check_file 197):/root/PycharmProjects/indexdoc-batch-generator/src/SysHandler.py modified; restarting server
+20260119 160033:INFO:FILE(server.py <module> 87):Tornado Web Server Starting ......
+20260119 160033:INFO:FILE(server.py <module> 90):Tornado Web Server Start at Port 50003
+20260119 160108:INFO:FILE(autoreload.py _check_file 197):/root/PycharmProjects/indexdoc-batch-generator/src/SysHandler.py modified; restarting server
+20260119 160109:INFO:FILE(server.py <module> 87):Tornado Web Server Starting ......
+20260119 160109:INFO:FILE(server.py <module> 90):Tornado Web Server Start at Port 50003
+20260119 160114:INFO:FILE(autoreload.py _check_file 197):/root/PycharmProjects/indexdoc-batch-generator/src/SysHandler.py modified; restarting server
+20260119 160115:INFO:FILE(server.py <module> 87):Tornado Web Server Starting ......
+20260119 160115:INFO:FILE(server.py <module> 90):Tornado Web Server Start at Port 50003
+20260119 160126:INFO:FILE(autoreload.py _check_file 197):/root/PycharmProjects/indexdoc-batch-generator/src/SysHandler.py modified; restarting server
+20260119 160127:INFO:FILE(server.py <module> 87):Tornado Web Server Starting ......
+20260119 160127:INFO:FILE(server.py <module> 90):Tornado Web Server Start at Port 50003
+20260119 160148:INFO:FILE(autoreload.py _check_file 197):/root/PycharmProjects/indexdoc-batch-generator/src/SysHandler.py modified; restarting server
+20260119 160149:INFO:FILE(server.py <module> 87):Tornado Web Server Starting ......
+20260119 160149:INFO:FILE(server.py <module> 90):Tornado Web Server Start at Port 50003
+20260119 160249:INFO:FILE(autoreload.py _check_file 197):/root/PycharmProjects/indexdoc-batch-generator/html/pc/static modified; restarting server
+20260119 160250:INFO:FILE(server.py <module> 87):Tornado Web Server Starting ......
+20260119 160250:INFO:FILE(server.py <module> 90):Tornado Web Server Start at Port 50003
+20260119 160253:INFO:FILE(autoreload.py _check_file 197):/root/PycharmProjects/indexdoc-batch-generator/html/pc/static/js/pdfjs-4.4.168-dist/build modified; restarting server
+20260119 160254:INFO:FILE(server.py <module> 87):Tornado Web Server Starting ......
+20260119 160254:INFO:FILE(server.py <module> 90):Tornado Web Server Start at Port 50003
+20260119 160255:INFO:FILE(autoreload.py _check_file 197):/root/PycharmProjects/indexdoc-batch-generator/html/pc/static/js/pdfjs-4.4.168-dist/web modified; restarting server
+20260119 160256:INFO:FILE(server.py <module> 87):Tornado Web Server Starting ......
+20260119 160256:INFO:FILE(server.py <module> 90):Tornado Web Server Start at Port 50003
+20260119 160257:INFO:FILE(autoreload.py _check_file 197):/root/PycharmProjects/indexdoc-batch-generator/html/pc/static/js/pdfjs-4.4.168-dist/web/cmaps modified; restarting server
+20260119 160258:INFO:FILE(server.py <module> 87):Tornado Web Server Starting ......
+20260119 160258:INFO:FILE(server.py <module> 90):Tornado Web Server Start at Port 50003
+20260119 160259:INFO:FILE(autoreload.py _check_file 197):/root/PycharmProjects/indexdoc-batch-generator/html/pc/static/js/pdfjs-4.4.168-dist/web/cmaps modified; restarting server
+20260119 160300:INFO:FILE(server.py <module> 87):Tornado Web Server Starting ......
+20260119 160300:INFO:FILE(server.py <module> 90):Tornado Web Server Start at Port 50003
+20260119 160301:INFO:FILE(autoreload.py _check_file 197):/root/PycharmProjects/indexdoc-batch-generator/html/pc/static/js/pdfjs-4.4.168-dist/web/cmaps modified; restarting server
+20260119 160302:INFO:FILE(server.py <module> 87):Tornado Web Server Starting ......
+20260119 160302:INFO:FILE(server.py <module> 90):Tornado Web Server Start at Port 50003
+20260119 160303:INFO:FILE(autoreload.py _check_file 197):/root/PycharmProjects/indexdoc-batch-generator/html/pc/static/js/pdfjs-4.4.168-dist/web/images modified; restarting server
+20260119 160304:INFO:FILE(server.py <module> 87):Tornado Web Server Starting ......
+20260119 160304:INFO:FILE(server.py <module> 90):Tornado Web Server Start at Port 50003
+20260119 160305:INFO:FILE(autoreload.py _check_file 197):/root/PycharmProjects/indexdoc-batch-generator/html/pc/static/js/pdfjs-4.4.168-dist/web/locale modified; restarting server
+20260119 160306:INFO:FILE(server.py <module> 87):Tornado Web Server Starting ......
+20260119 160306:INFO:FILE(server.py <module> 90):Tornado Web Server Start at Port 50003
+20260119 160307:INFO:FILE(autoreload.py _check_file 197):/root/PycharmProjects/indexdoc-batch-generator/html/pc/static/js/pdfjs-4.4.168-dist/web/locale/hu modified; restarting server
+20260119 160308:INFO:FILE(server.py <module> 87):Tornado Web Server Starting ......
+20260119 160308:INFO:FILE(server.py <module> 90):Tornado Web Server Start at Port 50003
+20260119 160309:INFO:FILE(autoreload.py _check_file 197):/root/PycharmProjects/indexdoc-batch-generator/html/pc/static/js/pdfjs-4.4.168-dist/web/locale/si modified; restarting server
+20260119 160310:INFO:FILE(server.py <module> 87):Tornado Web Server Starting ......
+20260119 160310:INFO:FILE(server.py <module> 90):Tornado Web Server Start at Port 50003
+20260119 160311:INFO:FILE(autoreload.py _check_file 197):/root/PycharmProjects/indexdoc-batch-generator/html/pc/static/js/pdfjs-4.4.168-dist/web/standard_fonts modified; restarting server
+20260119 160313:INFO:FILE(server.py <module> 87):Tornado Web Server Starting ......
+20260119 160313:INFO:FILE(server.py <module> 90):Tornado Web Server Start at Port 50003
+20260119 160319:INFO:FILE(autoreload.py _check_file 197):/root/PycharmProjects/indexdoc-batch-generator/html/pc modified; restarting server
+20260119 160320:INFO:FILE(server.py <module> 87):Tornado Web Server Starting ......
+20260119 160320:INFO:FILE(server.py <module> 90):Tornado Web Server Start at Port 50003
+20260119 160324:INFO:FILE(autoreload.py _check_file 197):/root/PycharmProjects/indexdoc-batch-generator/html/pc/public/pdfPreview.html modified; restarting server
+20260119 160325:INFO:FILE(server.py <module> 87):Tornado Web Server Starting ......
+20260119 160325:INFO:FILE(server.py <module> 90):Tornado Web Server Start at Port 50003
+20260119 160406:INFO:FILE(server.py custom_log_request 37):200 GET /public/pdfPreview.html?pdfFileId=341e9e42620740a783014be6e5a60627 (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 11.97ms
+20260119 160406:WARNING:FILE(server.py custom_log_request 37):404 GET /pc/static/js/jquery-2.1.1.js (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 5.35ms
+20260119 160407:WARNING:FILE(server.py custom_log_request 37):404 GET /static/img/logo-xcube.ico (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 1.41ms
+20260119 160422:INFO:FILE(autoreload.py _check_file 197):/root/PycharmProjects/indexdoc-batch-generator/html/pc/public/pdfPreview.html modified; restarting server
+20260119 160423:INFO:FILE(server.py <module> 87):Tornado Web Server Starting ......
+20260119 160423:INFO:FILE(server.py <module> 90):Tornado Web Server Start at Port 50003
+20260119 160429:INFO:FILE(server.py custom_log_request 37):200 GET /public/pdfPreview.html?pdfFileId=341e9e42620740a783014be6e5a60627 (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 10.56ms
+20260119 160429:INFO:FILE(server.py custom_log_request 37):200 GET /public/static/js/pdfjs-4.4.168-dist/web/viewer.html?file=/api/file/341e9e42620740a783014be6e5a60627.pdf (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 1.77ms
+20260119 160430:INFO:FILE(server.py custom_log_request 37):200 GET /public/static/js/pdfjs-4.4.168-dist/web/viewer.css (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 1.28ms
+20260119 160430:INFO:FILE(server.py custom_log_request 37):200 GET /public/static/js/pdfjs-4.4.168-dist/build/pdf.mjs (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 16.77ms
+20260119 160431:INFO:FILE(server.py custom_log_request 37):200 GET /public/static/js/pdfjs-4.4.168-dist/web/viewer.mjs (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 24.93ms
+20260119 160431:INFO:FILE(server.py custom_log_request 37):200 GET /public/static/js/pdfjs-4.4.168-dist/web/images/toolbarButton-viewThumbnail.svg (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 1.23ms
+20260119 160431:INFO:FILE(server.py custom_log_request 37):200 GET /public/static/js/pdfjs-4.4.168-dist/web/images/toolbarButton-viewOutline.svg (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.92ms
+20260119 160431:INFO:FILE(server.py custom_log_request 37):200 GET /public/static/js/pdfjs-4.4.168-dist/web/images/toolbarButton-viewAttachments.svg (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 2.64ms
+20260119 160431:INFO:FILE(server.py custom_log_request 37):200 GET /public/static/js/pdfjs-4.4.168-dist/web/images/toolbarButton-viewLayers.svg (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 2.97ms
+20260119 160431:INFO:FILE(server.py custom_log_request 37):200 GET /public/static/js/pdfjs-4.4.168-dist/web/images/toolbarButton-sidebarToggle.svg (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 3.18ms
+20260119 160431:INFO:FILE(server.py custom_log_request 37):200 GET /public/static/js/pdfjs-4.4.168-dist/web/images/toolbarButton-search.svg (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 3.50ms
+20260119 160431:INFO:FILE(server.py custom_log_request 37):200 GET /public/static/js/pdfjs-4.4.168-dist/web/images/toolbarButton-pageUp.svg (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.93ms
+20260119 160431:INFO:FILE(server.py custom_log_request 37):200 GET /public/static/js/pdfjs-4.4.168-dist/web/images/toolbarButton-print.svg (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 1.09ms
+20260119 160431:INFO:FILE(server.py custom_log_request 37):200 GET /public/static/js/pdfjs-4.4.168-dist/web/images/toolbarButton-pageDown.svg (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 1.31ms
+20260119 160431:INFO:FILE(server.py custom_log_request 37):200 GET /public/static/js/pdfjs-4.4.168-dist/web/images/toolbarButton-zoomOut.svg (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 1.33ms
+20260119 160431:INFO:FILE(server.py custom_log_request 37):200 GET /public/static/js/pdfjs-4.4.168-dist/web/images/toolbarButton-editorFreeText.svg (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 1.64ms
+20260119 160431:INFO:FILE(server.py custom_log_request 37):200 GET /public/static/js/pdfjs-4.4.168-dist/web/images/toolbarButton-zoomIn.svg (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 2.05ms
+20260119 160431:INFO:FILE(server.py custom_log_request 37):200 GET /public/static/js/pdfjs-4.4.168-dist/web/images/toolbarButton-download.svg (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 3.47ms
+20260119 160431:INFO:FILE(server.py custom_log_request 37):200 GET /public/static/js/pdfjs-4.4.168-dist/web/images/toolbarButton-secondaryToolbarToggle.svg (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 3.10ms
+20260119 160431:INFO:FILE(server.py custom_log_request 37):200 GET /public/static/js/pdfjs-4.4.168-dist/web/images/toolbarButton-menuArrow.svg (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 3.58ms
+20260119 160431:INFO:FILE(server.py custom_log_request 37):200 GET /public/static/js/pdfjs-4.4.168-dist/web/images/toolbarButton-editorInk.svg (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 2.33ms
+20260119 160431:INFO:FILE(server.py custom_log_request 37):200 GET /public/static/js/pdfjs-4.4.168-dist/web/locale/locale.json (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 1.10ms
+20260119 160431:INFO:FILE(server.py custom_log_request 37):200 GET /public/static/js/pdfjs-4.4.168-dist/web/viewer.mjs.map (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 12.34ms
+20260119 160431:INFO:FILE(server.py custom_log_request 37):200 GET /public/static/js/pdfjs-4.4.168-dist/build/pdf.mjs.map (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 21.70ms
+20260119 160431:INFO:FILE(server.py custom_log_request 37):200 GET /public/static/js/pdfjs-4.4.168-dist/web/images/toolbarButton-editorStamp.svg (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 1.02ms
+20260119 160431:INFO:FILE(server.py custom_log_request 37):200 GET /public/static/js/pdfjs-4.4.168-dist/build/pdf.worker.mjs (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 10.76ms
+20260119 160431:INFO:FILE(server.py custom_log_request 37):200 GET /public/static/js/pdfjs-4.4.168-dist/web/locale/zh-CN/viewer.ftl (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 1.23ms
+20260119 160431:INFO:FILE(server.py custom_log_request 37):200 GET /public/static/js/pdfjs-4.4.168-dist/web/locale/en-US/viewer.ftl (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 1.24ms
+20260119 160431:INFO:FILE(server.py custom_log_request 37):200 GET /public/static/js/pdfjs-4.4.168-dist/build/pdf.worker.mjs.map (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 40.87ms
+20260119 160431:ERROR:FILE(BaseHandler.py get 165):name 'UserFileDaoCK' is not defined
+20260119 160431:ERROR:FILE(BaseHandler.py get 166):Traceback (most recent call last):
+  File "/root/PycharmProjects/indexdoc-batch-generator/src/BaseHandler.py", line 158, in get
+    await asyncio.to_thread(self.myget, *args, **kwargs)
+  File "/usr/lib/python3.11/asyncio/threads.py", line 25, in to_thread
+    return await loop.run_in_executor(None, func_call)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/PycharmProjects/indexdoc-batch-generator/src/SysHandler.py", line 121, in myget
+    _entitylist = UserFileDaoCK.select_by_FileStorage(_file_name)
+                  ^^^^^^^^^^^^^
+NameError: name 'UserFileDaoCK' is not defined
+
+20260119 160431:WARNING:FILE(server.py custom_log_request 37):403 GET /api/file/341e9e42620740a783014be6e5a60627.pdf (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 7.36ms
+20260119 160555:ERROR:FILE(BaseHandler.py get 165):name 'UserFileDaoCK' is not defined
+20260119 160555:ERROR:FILE(BaseHandler.py get 166):Traceback (most recent call last):
+  File "/root/PycharmProjects/indexdoc-batch-generator/src/BaseHandler.py", line 158, in get
+    await asyncio.to_thread(self.myget, *args, **kwargs)
+  File "/usr/lib/python3.11/asyncio/threads.py", line 25, in to_thread
+    return await loop.run_in_executor(None, func_call)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/PycharmProjects/indexdoc-batch-generator/src/SysHandler.py", line 121, in myget
+    _entitylist = UserFileDaoCK.select_by_FileStorage(_file_name)
+                  ^^^^^^^^^^^^^
+NameError: name 'UserFileDaoCK' is not defined
+
+20260119 160555:WARNING:FILE(server.py custom_log_request 37):403 GET /api/file/341e9e42620740a783014be6e5a60627.pdf (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 6.49ms
+20260119 160609:ERROR:FILE(BaseHandler.py get 165):name 'UserFileDaoCK' is not defined
+20260119 160609:ERROR:FILE(BaseHandler.py get 166):Traceback (most recent call last):
+  File "/root/PycharmProjects/indexdoc-batch-generator/src/BaseHandler.py", line 158, in get
+    await asyncio.to_thread(self.myget, *args, **kwargs)
+  File "/usr/lib/python3.11/asyncio/threads.py", line 25, in to_thread
+    return await loop.run_in_executor(None, func_call)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/PycharmProjects/indexdoc-batch-generator/src/SysHandler.py", line 121, in myget
+    _entitylist = UserFileDaoCK.select_by_FileStorage(_file_name)
+                  ^^^^^^^^^^^^^
+NameError: name 'UserFileDaoCK' is not defined
+
+20260119 160609:WARNING:FILE(server.py custom_log_request 37):403 GET /api/file/341e9e42620740a783014be6e5a60627.pdf (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 3.84ms
+20260119 160627:ERROR:FILE(BaseHandler.py get 165):name 'UserFileDaoCK' is not defined
+20260119 160627:ERROR:FILE(BaseHandler.py get 166):Traceback (most recent call last):
+  File "/root/PycharmProjects/indexdoc-batch-generator/src/BaseHandler.py", line 158, in get
+    await asyncio.to_thread(self.myget, *args, **kwargs)
+  File "/usr/lib/python3.11/asyncio/threads.py", line 25, in to_thread
+    return await loop.run_in_executor(None, func_call)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/PycharmProjects/indexdoc-batch-generator/src/SysHandler.py", line 121, in myget
+    _entitylist = UserFileDaoCK.select_by_FileStorage(_file_name)
+                  ^^^^^^^^^^^^^
+NameError: name 'UserFileDaoCK' is not defined
+
+20260119 160627:WARNING:FILE(server.py custom_log_request 37):403 GET /api/file/341e9e42620740a783014be6e5a60627.pdf (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 9429.24ms
+20260119 160636:INFO:FILE(server.py <module> 94):Tornado Web Server Stop By KeyboardInterrupt!
+20260119 160637:INFO:FILE(server.py <module> 87):Tornado Web Server Starting ......
+20260119 160637:INFO:FILE(server.py <module> 90):Tornado Web Server Start at Port 50003
+20260119 160643:WARNING:FILE(unix.py _get_localzone_name 148):/etc/timezone is deprecated in some distros, and no longer reliable. tzlocal is ignoring it, and you can likely delete it.
+20260119 160644:INFO:FILE(server.py custom_log_request 37):200 GET /api/file/341e9e42620740a783014be6e5a60627.pdf (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 3062.19ms
+20260119 160647:INFO:FILE(server.py custom_log_request 37):304 GET /public/pdfPreview.html?pdfFileId=341e9e42620740a783014be6e5a60627 (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 10.00ms
+20260119 160647:INFO:FILE(server.py custom_log_request 37):304 GET /public/static/js/pdfjs-4.4.168-dist/web/viewer.html?file=/api/file/341e9e42620740a783014be6e5a60627.pdf (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 1.18ms
+20260119 160649:INFO:FILE(server.py custom_log_request 37):304 GET /public/static/js/pdfjs-4.4.168-dist/build/pdf.mjs (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 2.27ms
+20260119 160649:INFO:FILE(server.py custom_log_request 37):304 GET /public/static/js/pdfjs-4.4.168-dist/web/viewer.css (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 1.00ms
+20260119 160649:INFO:FILE(server.py custom_log_request 37):304 GET /public/static/js/pdfjs-4.4.168-dist/web/viewer.mjs (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 1.65ms
+20260119 160649:INFO:FILE(server.py custom_log_request 37):304 GET /public/static/js/pdfjs-4.4.168-dist/web/images/toolbarButton-viewThumbnail.svg (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.95ms
+20260119 160649:INFO:FILE(server.py custom_log_request 37):304 GET /public/static/js/pdfjs-4.4.168-dist/web/images/toolbarButton-viewOutline.svg (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.83ms
+20260119 160649:INFO:FILE(server.py custom_log_request 37):304 GET /public/static/js/pdfjs-4.4.168-dist/web/images/toolbarButton-viewAttachments.svg (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.83ms
+20260119 160649:INFO:FILE(server.py custom_log_request 37):304 GET /public/static/js/pdfjs-4.4.168-dist/web/images/toolbarButton-viewLayers.svg (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 2.09ms
+20260119 160649:INFO:FILE(server.py custom_log_request 37):304 GET /public/static/js/pdfjs-4.4.168-dist/web/images/toolbarButton-sidebarToggle.svg (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 2.19ms
+20260119 160649:INFO:FILE(server.py custom_log_request 37):304 GET /public/static/js/pdfjs-4.4.168-dist/web/images/toolbarButton-search.svg (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 2.29ms
+20260119 160649:INFO:FILE(server.py custom_log_request 37):304 GET /public/static/js/pdfjs-4.4.168-dist/web/images/toolbarButton-pageUp.svg (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 1.22ms
+20260119 160649:INFO:FILE(server.py custom_log_request 37):304 GET /public/static/js/pdfjs-4.4.168-dist/web/images/toolbarButton-pageDown.svg (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 1.51ms
+20260119 160649:INFO:FILE(server.py custom_log_request 37):304 GET /public/static/js/pdfjs-4.4.168-dist/web/images/toolbarButton-editorFreeText.svg (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.96ms
+20260119 160649:INFO:FILE(server.py custom_log_request 37):304 GET /public/static/js/pdfjs-4.4.168-dist/web/images/toolbarButton-print.svg (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 1.23ms
+20260119 160649:INFO:FILE(server.py custom_log_request 37):304 GET /public/static/js/pdfjs-4.4.168-dist/web/images/toolbarButton-editorInk.svg (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 1.54ms
+20260119 160649:INFO:FILE(server.py custom_log_request 37):304 GET /public/static/js/pdfjs-4.4.168-dist/web/images/toolbarButton-download.svg (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.91ms
+20260119 160649:INFO:FILE(server.py custom_log_request 37):304 GET /public/static/js/pdfjs-4.4.168-dist/web/images/toolbarButton-secondaryToolbarToggle.svg (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 1.66ms
+20260119 160649:INFO:FILE(server.py custom_log_request 37):304 GET /public/static/js/pdfjs-4.4.168-dist/web/images/toolbarButton-zoomOut.svg (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 1.94ms
+20260119 160649:INFO:FILE(server.py custom_log_request 37):304 GET /public/static/js/pdfjs-4.4.168-dist/web/images/toolbarButton-zoomIn.svg (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 2.22ms
+20260119 160649:INFO:FILE(server.py custom_log_request 37):304 GET /public/static/js/pdfjs-4.4.168-dist/web/images/toolbarButton-menuArrow.svg (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.77ms
+20260119 160649:INFO:FILE(server.py custom_log_request 37):304 GET /public/static/js/pdfjs-4.4.168-dist/build/pdf.mjs.map (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 3.85ms
+20260119 160649:INFO:FILE(server.py custom_log_request 37):304 GET /public/static/js/pdfjs-4.4.168-dist/web/viewer.mjs.map (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 3.23ms
+20260119 160649:INFO:FILE(server.py custom_log_request 37):304 GET /public/static/js/pdfjs-4.4.168-dist/web/locale/locale.json (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.70ms
+20260119 160649:INFO:FILE(server.py custom_log_request 37):304 GET /public/static/js/pdfjs-4.4.168-dist/web/images/toolbarButton-editorStamp.svg (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.75ms
+20260119 160649:INFO:FILE(server.py custom_log_request 37):304 GET /public/static/js/pdfjs-4.4.168-dist/build/pdf.worker.mjs (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 4.74ms
+20260119 160649:INFO:FILE(server.py custom_log_request 37):304 GET /public/static/js/pdfjs-4.4.168-dist/web/locale/zh-CN/viewer.ftl (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.91ms
+20260119 160649:INFO:FILE(server.py custom_log_request 37):304 GET /public/static/js/pdfjs-4.4.168-dist/web/locale/en-US/viewer.ftl (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 1.16ms
+20260119 160649:INFO:FILE(server.py custom_log_request 37):304 GET /public/static/js/pdfjs-4.4.168-dist/build/pdf.worker.mjs.map (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 11.55ms
+20260119 160707:INFO:FILE(server.py custom_log_request 37):304 GET /api/file/341e9e42620740a783014be6e5a60627.pdf (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 17653.36ms
+20260119 160707:INFO:FILE(server.py custom_log_request 37):200 GET /public/static/js/pdfjs-4.4.168-dist/web/images/loading.svg (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 2.04ms
+20260119 160707:INFO:FILE(server.py custom_log_request 37):200 GET /public/static/js/pdfjs-4.4.168-dist/web/images/loading-icon.gif (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 1.01ms
+20260119 160929:INFO:FILE(autoreload.py _check_file 197):/root/PycharmProjects/indexdoc-batch-generator/src/SysHandler.py modified; restarting server
+20260119 160930:INFO:FILE(server.py <module> 87):Tornado Web Server Starting ......
+20260119 160930:INFO:FILE(server.py <module> 90):Tornado Web Server Start at Port 50003
+20260119 160931:INFO:FILE(autoreload.py _check_file 197):/root/PycharmProjects/indexdoc-batch-generator/src/SysHandler.py modified; restarting server
+20260119 160932:INFO:FILE(server.py <module> 87):Tornado Web Server Starting ......
+20260119 160932:INFO:FILE(server.py <module> 90):Tornado Web Server Start at Port 50003

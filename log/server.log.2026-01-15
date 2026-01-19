@@ -1,0 +1,176 @@
+20260115 160159:INFO:FILE(server.py <module> 105):Tornado Web Server Starting ......
+20260115 160200:INFO:FILE(server.py refreshAuth 98):加载权限缓存 begin
+20260115 160200:INFO:FILE(server.py refreshAuth 101):加载权限缓存 end
+20260115 160200:INFO:FILE(server.py <module> 110):Tornado Web Server Start at Port 50003
+20260115 160241:WARNING:FILE(server.py custom_log_request 45):404 GET /cherry_markdown/markdown.html (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.95ms
+20260115 160241:WARNING:FILE(server.py custom_log_request 45):404 GET /cherry_markdown/static/lib/layui/css/layui.css (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.34ms
+20260115 160241:WARNING:FILE(server.py custom_log_request 45):404 GET /cherry_markdown/static/lib/layui/layui.js (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.30ms
+20260115 160243:INFO:FILE(server.py custom_log_request 45):200 GET /favicon.ico (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 1.42ms
+20260115 160325:INFO:FILE(autoreload.py _check_file 197):/root/PycharmProjects/indexdoc-editor/html/pc/public/static modified; restarting server
+20260115 160328:INFO:FILE(server.py <module> 105):Tornado Web Server Starting ......
+20260115 160328:INFO:FILE(server.py refreshAuth 98):加载权限缓存 begin
+20260115 160328:INFO:FILE(server.py refreshAuth 101):加载权限缓存 end
+20260115 160328:INFO:FILE(server.py <module> 110):Tornado Web Server Start at Port 50003
+20260115 160334:WARNING:FILE(server.py custom_log_request 45):404 GET /cherry_markdown/markdown.html (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.71ms
+20260115 160334:WARNING:FILE(server.py custom_log_request 45):404 GET /cherry_markdown/static/lib/layui/css/layui.css (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.27ms
+20260115 160334:WARNING:FILE(server.py custom_log_request 45):404 GET /cherry_markdown/static/lib/layui/layui.js (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.22ms
+20260115 160334:INFO:FILE(server.py custom_log_request 45):304 GET /favicon.ico (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 1.07ms
+20260115 160547:INFO:FILE(autoreload.py _check_file 197):/root/PycharmProjects/indexdoc-editor/html/pc/public modified; restarting server
+20260115 160548:INFO:FILE(server.py <module> 105):Tornado Web Server Starting ......
+20260115 160549:INFO:FILE(server.py refreshAuth 98):加载权限缓存 begin
+20260115 160549:INFO:FILE(server.py refreshAuth 101):加载权限缓存 end
+20260115 160549:INFO:FILE(server.py <module> 110):Tornado Web Server Start at Port 50003
+20260115 160557:WARNING:FILE(server.py custom_log_request 45):404 GET /login.html (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.64ms
+20260115 160557:WARNING:FILE(server.py custom_log_request 45):404 GET /static/lib/layui/css/layui.css (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.47ms
+20260115 160557:WARNING:FILE(server.py custom_log_request 45):404 GET /static/lib/layui/layui.js (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.25ms
+20260115 160704:INFO:FILE(server.py custom_log_request 45):200 GET /pc/public/login.html (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 1.28ms
+20260115 160704:WARNING:FILE(server.py custom_log_request 45):404 GET /pc/public/static/lib/layui/css/layui.css (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 1.88ms
+20260115 160704:WARNING:FILE(server.py custom_log_request 45):404 GET /pc/public/static/css/layuimini.css (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.60ms
+20260115 160704:WARNING:FILE(server.py custom_log_request 45):404 GET /pc/public/static/lib/font-awesome-4.7.0/css/font-awesome.min.css (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.51ms
+20260115 160704:WARNING:FILE(server.py custom_log_request 45):404 GET /pc/public/static/lib/layui/layui.js (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.74ms
+20260115 160704:WARNING:FILE(server.py custom_log_request 45):404 GET /pc/public/static/lib/sha1.js (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 1.00ms
+20260115 160704:WARNING:FILE(server.py custom_log_request 45):404 GET /pc/public/static/lib/jquery-3.4.1/jquery-3.4.1.min.js (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 1.26ms
+20260115 160704:WARNING:FILE(server.py custom_log_request 45):404 GET /pc/public/static/img/loginbg.png (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.46ms
+20260115 160704:WARNING:FILE(server.py custom_log_request 45):404 GET /pc/public/static/img/icon-login.png (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.45ms
+20260115 160720:INFO:FILE(server.py custom_log_request 45):200 GET /pc/public/cherry_markdown/markdown.html (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 1.53ms
+20260115 160720:INFO:FILE(server.py custom_log_request 45):200 GET /pc/public/static/cherry-markdown/cherry-markdown.css (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 1.44ms
+20260115 160720:INFO:FILE(server.py custom_log_request 45):200 GET /pc/public/static/css/fontAwesome.css (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.85ms
+20260115 160720:WARNING:FILE(server.py custom_log_request 45):404 GET /pc/public/static/js/tailwind.js (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 1.43ms
+20260115 160720:INFO:FILE(server.py custom_log_request 45):200 GET /pc/public/static/css/layui.css (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.92ms
+20260115 160720:WARNING:FILE(server.py custom_log_request 45):404 GET /pc/public/static/js/request.js (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 1.06ms
+20260115 160720:INFO:FILE(server.py custom_log_request 45):200 GET /pc/public/static/js/jquery-2.1.1.js (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 1.34ms
+20260115 160720:WARNING:FILE(server.py custom_log_request 45):404 GET /pc/public/static/js/mermaid.js (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.48ms
+20260115 160720:INFO:FILE(server.py custom_log_request 45):200 GET /pc/public/static/js/layui.js (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 22.13ms
+20260115 160720:INFO:FILE(server.py custom_log_request 45):200 GET /pc/public/static/font/fontawesome-webfont.woff2?v=4.7.0 (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.76ms
+20260115 160720:INFO:FILE(server.py custom_log_request 45):200 GET /pc/public/static/cherry-markdown/cherry-markdown.js (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 386.65ms
+20260115 160731:INFO:FILE(autoreload.py _check_file 197):/root/PycharmProjects/indexdoc-editor/src/server.py modified; restarting server
+20260115 160733:INFO:FILE(server.py <module> 105):Tornado Web Server Starting ......
+20260115 160733:INFO:FILE(server.py refreshAuth 98):加载权限缓存 begin
+20260115 160733:INFO:FILE(server.py refreshAuth 101):加载权限缓存 end
+20260115 160733:INFO:FILE(server.py <module> 110):Tornado Web Server Start at Port 50003
+20260115 160736:INFO:FILE(server.py custom_log_request 45):200 GET /public/cherry_markdown/markdown.html (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 1.08ms
+20260115 160736:WARNING:FILE(server.py custom_log_request 45):404 GET /public/static/js/tailwind.js (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 1.38ms
+20260115 160736:INFO:FILE(server.py custom_log_request 45):200 GET /public/static/cherry-markdown/cherry-markdown.css (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 4.43ms
+20260115 160736:INFO:FILE(server.py custom_log_request 45):200 GET /public/static/css/fontAwesome.css (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 1.10ms
+20260115 160736:INFO:FILE(server.py custom_log_request 45):200 GET /public/static/css/layui.css (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.81ms
+20260115 160736:INFO:FILE(server.py custom_log_request 45):200 GET /public/static/js/jquery-2.1.1.js (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.63ms
+20260115 160736:INFO:FILE(server.py custom_log_request 45):200 GET /public/static/js/layui.js (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 20.24ms
+20260115 160736:WARNING:FILE(server.py custom_log_request 45):404 GET /public/static/js/mermaid.js (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 1.13ms
+20260115 160736:WARNING:FILE(server.py custom_log_request 45):404 GET /public/static/js/request.js (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 1.29ms
+20260115 160736:INFO:FILE(server.py custom_log_request 45):200 GET /public/static/font/fontawesome-webfont.woff2?v=4.7.0 (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.73ms
+20260115 160736:INFO:FILE(server.py custom_log_request 45):200 GET /public/static/cherry-markdown/cherry-markdown.js (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 101.93ms
+20260115 161005:INFO:FILE(autoreload.py _check_file 197):/root/PycharmProjects/indexdoc-editor/html/pc modified; restarting server
+20260115 161026:INFO:FILE(server.py <module> 105):Tornado Web Server Starting ......
+20260115 161027:INFO:FILE(server.py refreshAuth 98):加载权限缓存 begin
+20260115 161027:INFO:FILE(server.py refreshAuth 101):加载权限缓存 end
+20260115 161027:INFO:FILE(server.py <module> 110):Tornado Web Server Start at Port 50003
+20260115 161037:INFO:FILE(autoreload.py _check_file 197):/root/PycharmProjects/indexdoc-editor/html/pc modified; restarting server
+20260115 162410:INFO:FILE(server.py <module> 101):Tornado Web Server Starting ......
+20260115 162416:INFO:FILE(server.py <module> 101):Tornado Web Server Starting ......
+20260115 162416:INFO:FILE(server.py refreshAuth 94):加载权限缓存 begin
+20260115 162416:INFO:FILE(server.py refreshAuth 97):加载权限缓存 end
+20260115 162416:INFO:FILE(server.py <module> 105):Tornado Web Server Start at Port 50003
+20260115 163123:INFO:FILE(autoreload.py _check_file 197):/root/PycharmProjects/indexdoc-editor/src/config.py modified; restarting server
+20260115 163205:INFO:FILE(server.py <module> 89):Tornado Web Server Starting ......
+20260115 163205:INFO:FILE(server.py <module> 92):Tornado Web Server Start at Port 50003
+20260115 163209:INFO:FILE(server.py custom_log_request 39):304 GET /public/cherry_markdown/markdown.html (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 3.34ms
+20260115 163209:WARNING:FILE(server.py custom_log_request 39):404 GET /public/static/js/tailwind.js (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 1.85ms
+20260115 163209:WARNING:FILE(server.py custom_log_request 39):404 GET /public/static/js/mermaid.js (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.60ms
+20260115 163209:WARNING:FILE(server.py custom_log_request 39):404 GET /public/static/js/request.js (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.55ms
+20260115 163211:WARNING:FILE(server.py custom_log_request 39):404 GET /favicon.ico (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.67ms
+20260115 163251:INFO:FILE(autoreload.py _check_file 197):/root/PycharmProjects/indexdoc-editor/src/server.py modified; restarting server
+20260115 163251:INFO:FILE(server.py <module> 87):Tornado Web Server Starting ......
+20260115 163251:INFO:FILE(server.py <module> 90):Tornado Web Server Start at Port 50003
+20260115 163440:INFO:FILE(autoreload.py _check_file 197):/root/PycharmProjects/indexdoc-editor/src/utils/ToWordUtil.py modified; restarting server
+20260115 163440:INFO:FILE(server.py <module> 87):Tornado Web Server Starting ......
+20260115 163440:INFO:FILE(server.py <module> 90):Tornado Web Server Start at Port 50003
+20260115 163529:INFO:FILE(autoreload.py _check_file 197):/root/PycharmProjects/indexdoc-editor/src/utils/JsonUtil.py modified; restarting server
+20260115 163529:INFO:FILE(server.py <module> 87):Tornado Web Server Starting ......
+20260115 163529:INFO:FILE(server.py <module> 90):Tornado Web Server Start at Port 50003
+20260115 163600:INFO:FILE(server.py <module> 94):Tornado Web Server Stop By KeyboardInterrupt!
+20260115 163600:INFO:FILE(server.py <module> 87):Tornado Web Server Starting ......
+20260115 163600:INFO:FILE(server.py <module> 90):Tornado Web Server Start at Port 50003
+20260115 163750:INFO:FILE(server.py custom_log_request 37):304 GET /public/cherry_markdown/markdown.html (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 3.36ms
+20260115 163750:WARNING:FILE(server.py custom_log_request 37):404 GET /public/static/js/tailwind.js (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 1.34ms
+20260115 163750:WARNING:FILE(server.py custom_log_request 37):404 GET /public/static/js/mermaid.js (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.54ms
+20260115 163750:WARNING:FILE(server.py custom_log_request 37):404 GET /public/static/js/request.js (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.52ms
+20260115 163757:INFO:FILE(server.py custom_log_request 37):200 GET /public/static/cherry-markdown/cherry-markdown.js.map (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 362.37ms
+20260115 163801:INFO:FILE(server.py custom_log_request 37):304 GET /public/cherry_markdown/markdown.html (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.63ms
+20260115 163801:WARNING:FILE(server.py custom_log_request 37):404 GET /public/static/js/tailwind.js (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.78ms
+20260115 163801:WARNING:FILE(server.py custom_log_request 37):404 GET /public/static/js/mermaid.js (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.52ms
+20260115 163801:WARNING:FILE(server.py custom_log_request 37):404 GET /public/static/js/request.js (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.50ms
+20260115 164050:INFO:FILE(autoreload.py _check_file 197):/root/PycharmProjects/indexdoc-editor/html/pc/public/static/js modified; restarting server
+20260115 164050:INFO:FILE(server.py <module> 87):Tornado Web Server Starting ......
+20260115 164050:INFO:FILE(server.py <module> 90):Tornado Web Server Start at Port 50003
+20260115 164102:INFO:FILE(autoreload.py _check_file 197):/root/PycharmProjects/indexdoc-editor/html/pc/public/static/css modified; restarting server
+20260115 164102:INFO:FILE(server.py <module> 87):Tornado Web Server Starting ......
+20260115 164102:INFO:FILE(server.py <module> 90):Tornado Web Server Start at Port 50003
+20260115 164107:INFO:FILE(autoreload.py _check_file 197):/root/PycharmProjects/indexdoc-editor/html/pc/public/cherry_markdown/markdown.html modified; restarting server
+20260115 164108:INFO:FILE(server.py <module> 87):Tornado Web Server Starting ......
+20260115 164108:INFO:FILE(server.py <module> 90):Tornado Web Server Start at Port 50003
+20260115 164109:INFO:FILE(server.py custom_log_request 37):304 GET /public/cherry_markdown/markdown.html (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 3.65ms
+20260115 164109:WARNING:FILE(server.py custom_log_request 37):404 GET /public/static/js/mermaid.js (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 1.19ms
+20260115 164109:WARNING:FILE(server.py custom_log_request 37):404 GET /public/static/js/request.js (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.50ms
+20260115 164109:INFO:FILE(server.py custom_log_request 37):200 GET /public/static/js/tailwind.js (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 8.57ms
+20260115 164241:INFO:FILE(autoreload.py _check_file 197):/root/PycharmProjects/indexdoc-editor/html/pc/public/static/js modified; restarting server
+20260115 164241:INFO:FILE(server.py <module> 87):Tornado Web Server Starting ......
+20260115 164241:INFO:FILE(server.py <module> 90):Tornado Web Server Start at Port 50003
+20260115 164258:INFO:FILE(autoreload.py _check_file 197):/root/PycharmProjects/indexdoc-editor/html/pc/public/static/js modified; restarting server
+20260115 164258:INFO:FILE(server.py <module> 87):Tornado Web Server Starting ......
+20260115 164258:INFO:FILE(server.py <module> 90):Tornado Web Server Start at Port 50003
+20260115 164402:INFO:FILE(autoreload.py _check_file 197):/root/PycharmProjects/indexdoc-editor/html/pc/public/static/js/request.js modified; restarting server
+20260115 164403:INFO:FILE(server.py <module> 87):Tornado Web Server Starting ......
+20260115 164403:INFO:FILE(server.py <module> 90):Tornado Web Server Start at Port 50003
+20260115 164409:INFO:FILE(autoreload.py _check_file 197):/root/PycharmProjects/indexdoc-editor/html/pc/public/static/js modified; restarting server
+20260115 164409:INFO:FILE(server.py <module> 87):Tornado Web Server Starting ......
+20260115 164409:INFO:FILE(server.py <module> 90):Tornado Web Server Start at Port 50003
+20260115 164618:INFO:FILE(autoreload.py _check_file 197):/root/PycharmProjects/indexdoc-editor/html/pc/public/cherry_markdown/markdown.html modified; restarting server
+20260115 164618:INFO:FILE(server.py <module> 87):Tornado Web Server Starting ......
+20260115 164618:INFO:FILE(server.py <module> 90):Tornado Web Server Start at Port 50003
+20260115 164652:INFO:FILE(autoreload.py _check_file 197):/root/PycharmProjects/indexdoc-editor/html/pc/public/cherry_markdown/markdown.html modified; restarting server
+20260115 164652:INFO:FILE(server.py <module> 87):Tornado Web Server Starting ......
+20260115 164652:INFO:FILE(server.py <module> 90):Tornado Web Server Start at Port 50003
+20260115 164657:INFO:FILE(server.py custom_log_request 37):200 GET /public/cherry_markdown/markdown.html (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 3.21ms
+20260115 164657:INFO:FILE(server.py custom_log_request 37):200 GET /public/static/js/mermaid.js (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 33.45ms
+20260115 164659:INFO:FILE(server.py custom_log_request 37):200 GET /public/static/cherry-markdown/fonts/ch-icon.woff2 (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 0.67ms
+20260115 164817:INFO:FILE(autoreload.py _check_file 197):/root/PycharmProjects/indexdoc-editor/html/pc/public/cherry_markdown/markdown.html modified; restarting server
+20260115 164817:INFO:FILE(server.py <module> 87):Tornado Web Server Starting ......
+20260115 164817:INFO:FILE(server.py <module> 90):Tornado Web Server Start at Port 50003
+20260115 164819:INFO:FILE(server.py custom_log_request 37):200 GET /public/cherry_markdown/markdown.html (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 3.62ms
+20260115 164819:INFO:FILE(server.py custom_log_request 37):304 GET /public/static/js/mermaid.js (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 5.55ms
+20260115 164825:WARNING:FILE(ToWordUtil.py str2docx 63):模板文件不存在: /root/PycharmProjects/indexdoc-editor/src/utils/docxTemplate/Normal-zh.docx
+20260115 164825:INFO:FILE(ToWordUtil.py str2docx 75):✅ 成功生成 Word 文件: /root/PycharmProjects/indexdoc-editor/user_file/export/16493d66f74346babb6ef52f1efb9e92.docx
+20260115 164825:INFO:FILE(server.py custom_log_request 37):200 POST /api/md/mdWord (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 236.42ms
+20260115 164900:INFO:FILE(ToWordUtil.py html2pdf 101):📄 使用 PDF 引擎: wkhtmltopdf
+20260115 164901:INFO:FILE(ToWordUtil.py html2pdf 117):✅ 成功生成 PDF: /root/PycharmProjects/indexdoc-editor/user_file/export/479a84b167814083a7d190dd9a0c39ce.docx
+20260115 164901:INFO:FILE(server.py custom_log_request 37):200 POST /api/md/mdPdf (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 1056.43ms
+20260115 164903:INFO:FILE(ToWordUtil.py str2md 155):成功生成 Markdown 文件: /root/PycharmProjects/indexdoc-editor/user_file/export/00295eafd77c4a6eae3222e167b79a01.md
+20260115 164903:INFO:FILE(server.py custom_log_request 37):200 POST /api/md/mdFile (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 1.14ms
+20260115 164951:INFO:FILE(autoreload.py _check_file 197):/root/PycharmProjects/indexdoc-editor/html/pc/public/cherry_markdown/markdown.html modified; restarting server
+20260115 164951:INFO:FILE(server.py <module> 87):Tornado Web Server Starting ......
+20260115 164951:INFO:FILE(server.py <module> 90):Tornado Web Server Start at Port 50003
+20260115 164952:INFO:FILE(server.py custom_log_request 37):200 GET /public/cherry_markdown/markdown.html (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 3.82ms
+20260115 164952:INFO:FILE(server.py custom_log_request 37):304 GET /public/static/js/mermaid.js (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 5.52ms
+20260115 164958:INFO:FILE(autoreload.py _check_file 197):/root/PycharmProjects/indexdoc-editor/html/pc/public/cherry_markdown/markdown.html modified; restarting server
+20260115 164958:INFO:FILE(server.py <module> 87):Tornado Web Server Starting ......
+20260115 164958:INFO:FILE(server.py <module> 90):Tornado Web Server Start at Port 50003
+20260115 164959:INFO:FILE(server.py custom_log_request 37):200 GET /public/cherry_markdown/markdown.html (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 3.46ms
+20260115 165015:INFO:FILE(autoreload.py _check_file 197):/root/PycharmProjects/indexdoc-editor/html/pc/public/static/css modified; restarting server
+20260115 165015:INFO:FILE(server.py <module> 87):Tornado Web Server Starting ......
+20260115 165015:INFO:FILE(server.py <module> 90):Tornado Web Server Start at Port 50003
+20260115 165021:INFO:FILE(autoreload.py _check_file 197):/root/PycharmProjects/indexdoc-editor/html/pc/public/static/css modified; restarting server
+20260115 165021:INFO:FILE(server.py <module> 87):Tornado Web Server Starting ......
+20260115 165021:INFO:FILE(server.py <module> 90):Tornado Web Server Start at Port 50003
+20260115 165033:INFO:FILE(autoreload.py _check_file 197):/root/PycharmProjects/indexdoc-editor/html/pc/public/cherry_markdown/markdown.html modified; restarting server
+20260115 165033:INFO:FILE(server.py <module> 87):Tornado Web Server Starting ......
+20260115 165033:INFO:FILE(server.py <module> 90):Tornado Web Server Start at Port 50003
+20260115 165035:INFO:FILE(server.py custom_log_request 37):304 GET /public/cherry_markdown/markdown.html (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 3.13ms
+20260115 165035:INFO:FILE(server.py custom_log_request 37):304 GET /public/static/js/mermaid.js (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 5.12ms
+20260115 165040:INFO:FILE(ToWordUtil.py str2md 155):成功生成 Markdown 文件: /root/PycharmProjects/indexdoc-editor/user_file/export/efdddb64588c461ebca05f61df55bdfd.md
+20260115 165040:INFO:FILE(server.py custom_log_request 37):200 POST /api/md/mdFile (192.168.0.107) (X-Real-IP=-, X-Forwarded-For=-) 2.00ms
+20260115 165053:INFO:FILE(autoreload.py _check_file 197):/root/PycharmProjects/indexdoc-editor/html/pc/public/cherry_markdown/markdown.html modified; restarting server
+20260115 165053:INFO:FILE(server.py <module> 87):Tornado Web Server Starting ......
+20260115 165053:INFO:FILE(server.py <module> 90):Tornado Web Server Start at Port 50003
+20260115 165555:INFO:FILE(server.py <module> 94):Tornado Web Server Stop By KeyboardInterrupt!
+20260115 170118:INFO:FILE(server.py <module> 87):Tornado Web Server Starting ......
+20260115 170118:INFO:FILE(server.py <module> 90):Tornado Web Server Start at Port 50003

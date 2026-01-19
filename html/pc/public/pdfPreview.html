@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>文件预览</title>
+        <link rel="icon" href="../../../static/img/logo-xcube.ico">
+        <style>
+            iframe{
+                height: 97vh;
+            }
+        </style>
+        <script src="./static/js/jquery-2.1.1.js"></script>
+        <script type="text/JavaScript">
+            function getUrlParam(name) {
+                var reg = new RegExp('(^|&)' + name + '=([^&]*)(&|$)');
+                var r = window.location.search.substr(1).match(reg);
+                if (r != null) {
+                    return unescape(r[2]);
+                }
+                return null;
+            }
+
+            $(function () {
+                var pdfFileId = getUrlParam('pdfFileId');
+                var url = '/api/file/' + pdfFileId + '.pdf';
+                // var url = 'http:192.168.0.204:50002/api/file/' + pdfFileId + '.pdf';
+                $("#pdfContainer").attr("src", "./static/js/pdfjs-4.4.168-dist/web/viewer.html?file="+url+"#page=1");
+            });
+        </script>
+    </head>
+    <body>
+        <div id="showPdf">
+            <iframe id="pdfContainer" src=""  width="100%" frameborder="0"></iframe>
+        </div>
+    </body>
+    <script>
+    </script>
+</html>

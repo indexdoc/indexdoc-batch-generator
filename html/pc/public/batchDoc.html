@@ -1,0 +1,1081 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AiTuple-批量文档助手</title>
+    <link rel="icon" href="./logo-indexdoc.ico">
+    <link rel="stylesheet" href="./static/css/layui.css" />
+    <link rel="stylesheet" href="./static/css/batchDoc.css" />
+    <style>
+        .container {
+            width: 100%;
+            /* min-width: 1920px; */
+        }
+
+        .topContainer {
+            width: 100%;
+            height: 75px;
+            display: flex;
+            flex-direction: row;
+            background-color: #4a87d1;
+            cursor: pointer;
+        }
+
+        .topContainer img {
+            width: 72px;
+            height: 72px;
+        }
+
+        .topContainer div {
+            font-size: 28px;
+            font-weight: bold;
+            line-height: 75px;
+            letter-spacing: 0em;
+            font-variation-settings: "opsz" auto;
+            font-feature-settings: "kern" on;
+            color: #ffffff;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <!-- <div class="topContainer" id="toIndex">
+            <img src="/pc/static/img/logo.png" alt="" />
+            <div>AiTuple-批量文档助手</div>
+        </div> -->
+        <div class="chat-container" style="display: flex">
+            <div class="chat-container2">
+                <input type="hidden" id="totalPage" value="0" />
+                <input type="hidden" id="page" value="1" />
+                <input type="hidden" id="status" value="0" />
+                <div class="excelCon">
+                    <div class="titCon" id="upload">
+                        <img src="./static/img/excel.png" alt="" />
+                        <div class="excelTxt">
+                            <div class="excelTit">选择EXCEL文件</div>
+                            <div class="excelMore">
+                                Excel文件定义文件名生成规则及Word文档中的需要替换的字段
+                            </div>
+                        </div>
+                    </div>
+                    <div class="fileCon">
+                        <div>
+                            文件名：<a id="excelfilename" class="file-preview" target="_blank"></a>
+                        </div>
+                        <div class="exampleDown" id="downloadBtn1">样例下载</div>
+                    </div>
+                </div>
+                <div class="excelCon">
+                    <div class="titCon" id="wordUpload">
+                        <img src="./static/img/word.png" alt="" />
+                        <div class="excelTxt">
+                            <div class="excelTit">选择WORD模板</div>
+                            <div class="excelMore">
+                                Word模版中将需要替换的字段用Excel文件中的列名进行替换，替换方式为“{列名}”
+                            </div>
+                        </div>
+                    </div>
+                    <div class="fileCon">
+                        <div>
+                            文件名：<a id="wordfilename" class="file-preview" target="_blank"></a>
+                        </div>
+                        <div class="exampleDown" id="downloadBtn2">样例下载</div>
+                    </div>
+                </div>
+                <!-- <div class="layui-upload-drag" style="display: block;" id="ID-upload-demo-drag">
+                <i class="layui-icon layui-icon-upload"></i>
+                <div>点击上传，或将文件拖拽到此处</div>
+                <div class="layui-hide" id="ID-upload-demo-preview">
+                    <hr> <img src="" alt="上传成功后渲染" style="max-width: 100%">
+                </div>
+            </div>
+
+            <div class="layui-upload-drag" style="display: block;" id="ID-upload-demo-drag">
+                <i class="layui-icon layui-icon-upload"></i>
+                <div>点击上传，或将文件拖拽到此处</div>
+                <div class="layui-hide" id="ID-upload-demo-preview">
+                    <hr> <img src="" alt="上传成功后渲染" style="max-width: 100%">
+                </div>
+            </div> -->
+            </div>
+            <div class="chat-container3">
+                <!--            <div class="btnGroup btnTit">-->
+                <!--                <button type="button" class="layui-btn btntype2">生成</button>-->
+                <!--                <button type="button" class="layui-btn btntype2" style="margin-left:-10px;">批量下载</button>-->
+                <!--            </div>-->
+                <div class="layui-tab layui-tab-brief" lay-filter="filter" style="margin-top: -28px">
+                    <div class="layui-tab-content">
+                        <div class="layui-tab-item layui-show">
+                            <table class="layui-hide" id="docAssistantTable" lay-filter="docAssistantTable"></table>
+                            <script type="text/html" id="toolbarDemo">
+                  <div class="layui-btn-container">
+                    <button
+                      class="layui-btn layui-bg-blue"
+                      lay-event="getAllGenerate"
+                      style="border-radius: 7px;font-size:14px;font-weight: bold;"
+                    >
+                      全部生成
+                    </button>
+                    <!--                            <button class="layui-btn layui-btn-sm" lay-event="getCheckGenerate" style="border-radius: 7px;">选中生成</button>-->
+                    <button
+                      class="layui-btn layui-bg-blue"
+                      lay-event="getAllDownload"
+                      style="border-radius: 7px;font-size:14px;font-weight: bold;"
+                    >
+                      批量下载
+                    </button>
+                  </div>
+                </script>
+                            <script type="text/html" id="barDemo">
+                  <div class="layui-clear-space">
+                    <a
+                      class="layui-btn layui-btn-xs layui-btn-normal"
+                      lay-event="generate"
+                      >生成</a
+                    >
+                    <a
+                      class="layui-btn layui-btn-xs layui-btn-normal"
+                      lay-event="preview"
+                      >预览</a
+                    >
+                    <a
+                      class="layui-btn layui-btn-xs layui-btn-normal"
+                      lay-event="download"
+                      >下载</a
+                    >
+                  </div>
+                </script>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<!-- <script src="/pc/static/js/base.js"></script> -->
+<script src="./static/js/layui.js"></script>
+<script src="./static/js/jquery-2.1.1.js"></script>
+<script src="./static/js/xlsx.js"></script>
+
+<script>
+    layui.use(["element", "tree", "table", "form", "jquery"], function () {
+        var element = layui.element;
+        var tree = layui.tree;
+        var table = layui.table;
+        var upload = layui.upload;
+        var form = layui.form;
+        var $ = layui.$;
+        var _file_storage = "";
+        var _tableData = "";
+        var gpuInfo;
+
+        layer.ready(function () {
+            tableRender();
+            gpuInfo = getGPUInfo();
+        });
+
+        $('#toIndex').on('click', function () {
+            // window.location.href = 'https://www.aituple.com'
+            window.open("https://www.aituple.com", "_blank");
+        })
+
+        //excel文件上传
+        var loadIndex;
+        var progress = 0;
+        var uuid;
+
+        upload.render({
+            elem: "#upload", // 绑定多个元素
+            url: "/api/doc_assistant/uploadfile",
+            accept: "file",
+            acceptMime:
+                "application/vnd.ms-excel, application/vnd.openxmlformats-officedocument.spreadsheetml.sheet", // excel文件
+            async: true,
+            data: {},
+            auto: false,
+            timeout: 100000,
+            before: function (obj) { },
+            choose: function (obj) {
+                $.ajax({
+                    url: "/api/doc_assistant/getUUid",
+                    type: "post",
+                    success: function (data) {
+                        // if (!data.login) {
+                        //     // window.location.href = "/pc/loginPhone";
+                        //     var index = layer.open({
+                        //         title: '为了更好的体验和网站安全，请通过手机号验证后继续体验。',
+                        //         type: 2,
+                        //         offset: 'auto',
+                        //         area: ['25%', '33%'],
+                        //         content: 'phone.html',
+                        //     });
+                        //     return;
+                        // }
+                        // console.log(data);
+                        uuid = data.data;
+                    },
+                    error: function (data) {
+                        console.log(data);
+                    },
+                });
+
+                page = 1;
+                var data = this.data;
+                var files = obj.pushFile(); //选择的文件推入obj
+                var LENGTH = 0.5 * 1024 * 1024; //每片文件大小
+                var progressTimer;
+                loadIndex = layer.msg(
+                    '<span id="uploadProgress">上传中,上传进度：0%</span>',
+                    {
+                        icon: 16,
+                        shade: 0.6,
+                        time: 0, // 不自动关闭
+                    }
+                );
+                obj.preview(function (index, file, result) {
+                    var reader = new FileReader();
+                    reader.onload = function (e) {
+                        var Exceldata = new Uint8Array(e.target.result);
+                        var workbook = XLSX.read(Exceldata, { type: "array" });
+                        var firstSheet = workbook.Sheets[workbook.SheetNames[0]];
+                        var jsonData = XLSX.utils.sheet_to_json(firstSheet, {
+                            header: 1,
+                        });
+                        renderTable(jsonData);
+                    };
+                    reader.readAsArrayBuffer(file);
+                    var totalSize = file.size; //文件总大小
+                    var totalPage = Math.ceil(totalSize / LENGTH); //总共上传的片数
+                    if (totalSize <= 10 * 1024 * 1024) {
+                        $("#totalPage").val(totalPage);
+                        $("#page").val("1");
+                        $("#status").val("1");
+                        var fileName = file.name; //获取文件名
+                        var fileExt = fileName.substr(fileName.lastIndexOf(".") + 1); //获取文件后缀
+                        fileName = fileName.substr(0, fileName.lastIndexOf(".")); //获取不带后缀的文件名
+                        progressTimer = setInterval(function () {
+                            var totalPage = parseInt($("#totalPage").val());
+                            var status = $("#status").val();
+                            if (parseInt(totalPage) == parseInt(page) - 1) {
+                                clearInterval(progressTimer); //上传成功或失败停止上传
+                            } else {
+                                //状态为1的时候上传
+                                if (status == 1) {
+                                    $("#status").val("0");
+                                    data.fileName = fileName;
+                                    // data.page = page;
+                                    data.uuid = uuid;
+                                    data.page = page;
+                                    data.totalPage = totalPage;
+                                    data.chunk_size = LENGTH;
+                                    data.fileName = fileName;
+                                    data.fileExt = fileExt;
+                                    data.gpuInfo = JSON.stringify(gpuInfo);
+                                    data.local_ip = sessionStorage.getItem('local_ip');
+                                    this.data = data;
+                                    obj.upload(
+                                        index,
+                                        file.slice((page - 1) * LENGTH, page * LENGTH)
+                                    ); //从文件中截取进行分片上传
+                                    page = page + 1;
+                                }
+                            }
+                        }, 100);
+                    } else {
+                        alert("请上传小于10M的文件");
+                        $(".loading").hide(); //显示进度条
+                    }
+                });
+            },
+            done: function (res) {
+                if (!res.login) {
+                    layer.close(loadIndex);
+                    return;
+                }
+                if (res.finish == 1) {
+                    //分片上传
+                    var totalPage = parseInt($("#totalPage").val());
+                    // element.progress('uploadProgress', Math.ceil(page * 100 / totalPage) + '%');//更新进度条
+                    $("#page").val(page);
+                    $("#status").val("1");
+                    progress = Math.ceil((page * 100) / totalPage);
+                    if (progress < 100) {
+                        $("#uploadProgress").text("上传中,上传进度：" + progress + "%");
+                    }
+                } else if (res.finish == 2) {
+                    //上传完成
+                    // element.progress('uploadProgress', '100%');
+                    $("#status").val("2");
+                    $("#uploadProgress").text("上传中,上传进度：100%");
+                    layer.msg("上传成功", { time: 1000, anim: 0 }, function () { });
+                } else if (res.finish == -1) {
+                    //上传错误
+                    $("#status").val("-1");
+                    element.progress("uploadProgress", "0%");
+                    layer.msg(
+                        "上传失败，请重试",
+                        { time: 3000, anim: 0 },
+                        function () { }
+                    );
+                }
+                // layer.msg('上传成功');
+                $("#excelfilename").text(res.obj.file_name);
+                file_name = res.obj.file_storage;
+                pdfname = file_name.substring(0, file_name.lastIndexOf("."));
+                var url =
+                    "https://demo.aituple.com/pc/free/pdfPreview.html?pdfFileId=" +
+                    pdfname;
+                $("#excelfilename").attr("href", url);
+                console.log(res);
+            },
+            error: function () {
+                $(".mask").hide();
+                $(".loading").hide();
+                layer.msg(
+                    "上传失败，请重试",
+                    { time: 3000, anim: 0 },
+                    function () { }
+                );
+            },
+        });
+
+        // Excel模板样例点击事件处理
+        $("#downloadBtn1").on("click", function () {
+            // 下载文件的逻辑
+            downloadFile1();
+        });
+        // 下载文件的函数
+        function downloadFile1() {
+            // 创建一个虚拟的链接元素
+            var link = document.createElement("a");
+            link.style.display = "none";
+            document.body.appendChild(link);
+
+            // 设置链接的下载属性
+            link.setAttribute(
+                "href",
+                "/api/tmpfile/Excel.xlsx"
+            );
+            link.setAttribute("download", "Excel模板样例.xlsx");
+
+            // 模拟点击链接进行下载
+            link.click();
+
+            // 清理资源
+            document.body.removeChild(link);
+        }
+
+        //word文件上传
+        var loadIndex2;
+        var progress2 = 0;
+        var uuid2;
+
+        upload.render({
+            elem: "#wordUpload", // 绑定多个元素
+            url: "/api/doc_assistant/uploadfile",
+            accept: "file",
+            acceptMime:
+                "application/vnd.openxmlformats-officedocument.wordprocessingml.document", // word文件
+            async: true,
+            data: {},
+            auto: false,
+            timeout: 100000,
+            before: function (obj) { },
+            choose: function (obj) {
+                $.ajax({
+                    url: "/api/doc_assistant/getUUid",
+                    type: "post",
+                    success: function (data) {
+                        // console.log(data);
+                        uuid2 = data.data;
+                    },
+                    error: function (data) {
+                        console.log(data);
+                    },
+                });
+
+                page = 1;
+                var data = this.data;
+                var files = obj.pushFile(); //选择的文件推入obj
+                var LENGTH = 0.5 * 1024 * 1024; //每片文件大小
+                var progressTimer;
+                loadIndex2 = layer.msg(
+                    '<span id="uploadProgress">上传中,上传进度：0%</span>',
+                    {
+                        icon: 16,
+                        shade: 0.6,
+                        time: 0, // 不自动关闭
+                    }
+                );
+                obj.preview(function (index, file, result) {
+                    var reader = new FileReader();
+                    reader.onload = function (e) {
+                        var Exceldata = new Uint8Array(e.target.result);
+                        var workbook = XLSX.read(Exceldata, { type: "array" });
+                        var firstSheet = workbook.Sheets[workbook.SheetNames[0]];
+                        var jsonData = XLSX.utils.sheet_to_json(firstSheet, {
+                            header: 1,
+                        });
+                        renderTable(jsonData);
+                    };
+                    reader.readAsArrayBuffer(file);
+                    var totalSize = file.size; //文件总大小
+                    var totalPage = Math.ceil(totalSize / LENGTH); //总共上传的片数
+                    if (totalSize <= 10 * 1024 * 1024) {
+                        $("#totalPage").val(totalPage);
+                        $("#page").val("1");
+                        $("#status").val("1");
+                        var fileName = file.name; //获取文件名
+                        var fileExt = fileName.substr(fileName.lastIndexOf(".") + 1); //获取文件后缀
+                        fileName = fileName.substr(0, fileName.lastIndexOf(".")); //获取不带后缀的文件名
+                        progressTimer = setInterval(function () {
+                            var totalPage = parseInt($("#totalPage").val());
+                            var status = $("#status").val();
+                            if (parseInt(totalPage) == parseInt(page) - 1) {
+                                clearInterval(progressTimer); //上传成功或失败停止上传
+                            } else {
+                                //状态为1的时候上传
+                                if (status == 1) {
+                                    $("#status").val("0");
+                                    data.fileName = fileName;
+                                    // data.page = page;
+                                    data.uuid = uuid2;
+                                    data.page = page;
+                                    data.totalPage = totalPage;
+                                    data.chunk_size = LENGTH;
+                                    data.fileName = fileName;
+                                    data.fileExt = fileExt;
+                                    this.data = data;
+                                    obj.upload(
+                                        index,
+                                        file.slice((page - 1) * LENGTH, page * LENGTH)
+                                    ); //从文件中截取进行分片上传
+                                    page = page + 1;
+                                }
+                            }
+                        }, 100);
+                    } else {
+                        alert("请上传小于10M的文件");
+                        $(".loading").hide(); //显示进度条
+                    }
+                });
+            },
+            done: function (res) {
+                if (!res.login) {
+
+                    layer.close(loadIndex);
+                    // window.location.href = "/pc/loginPhone";
+                    var index = layer.open({
+                        title: '为了更好的体验和网站安全，请通过手机号验证后继续体验。',
+                        type: 2,
+                        offset: 'auto',
+                        area: ['475px', '267px'],
+                        content: 'phone.html',
+                        end: function () {
+                            parent.location.reload();
+                        }
+                    });
+                    return;
+                }
+                if (res.finish == 1) {
+                    //分片上传
+                    var totalPage = parseInt($("#totalPage").val());
+                    // element.progress('uploadProgress', Math.ceil(page * 100 / totalPage) + '%');//更新进度条
+                    $("#page").val(page);
+                    $("#status").val("1");
+                    progress2 = Math.ceil((page * 100) / totalPage);
+                    if (progress2 < 100) {
+                        $("#uploadProgress").text("上传中,上传进度：" + progress2 + "%");
+                    }
+                } else if (res.finish == 2) {
+                    //上传完成
+                    // element.progress('uploadProgress', '100%');
+                    $("#status").val("2");
+                    $("#uploadProgress").text("上传中,上传进度：100%");
+                    layer.msg("上传成功", { time: 1000, anim: 0 }, function () { });
+                } else if (res.finish == -1) {
+                    //上传错误
+                    $("#status").val("-1");
+                    element.progress("uploadProgress", "0%");
+                    layer.msg(
+                        "上传失败，请重试",
+                        { time: 3000, anim: 0 },
+                        function () { }
+                    );
+                }
+                // layer.msg('上传成功');
+                _file_storage = res.obj.file_storage;
+                $("#wordfilename").text(res.obj.file_name);
+                pdfname = _file_storage.substring(0, _file_storage.lastIndexOf("."));
+                var url =
+                    "https://demo.aituple.com/pc/free/pdfPreview.html?pdfFileId=" +
+                    pdfname;
+                $("#wordfilename").attr("href", url);
+                console.log(res);
+            },
+            error: function () {
+                $(".mask").hide();
+                $(".loading").hide();
+                layer.msg(
+                    "上传失败，请重试",
+                    { time: 3000, anim: 0 },
+                    function () { }
+                );
+            },
+        });
+
+        // word模板样例点击事件处理
+        $("#downloadBtn2").on("click", function () {
+            // 下载文件的逻辑
+            downloadFile2();
+        });
+        // 下载文件的函数
+        function downloadFile2() {
+            // 创建一个虚拟的链接元素
+            var link = document.createElement("a");
+            link.style.display = "none";
+            document.body.appendChild(link);
+
+            // 设置链接的下载属性
+            link.setAttribute(
+                "href",
+                "/api/tmpfile/word.docx"
+            );
+            link.setAttribute("download", "word模板样例.docx");
+
+            // 模拟点击链接进行下载
+            link.click();
+
+            // 清理资源
+            document.body.removeChild(link);
+        }
+
+        function tableRender() {
+            table.render({
+                elem: "#docAssistantTable",
+                toolbar: "#toolbarDemo",
+                width: "full-100", // 表格宽度自适应
+                fit: true, // 列宽自适应
+                pagebar: "#ID-table-demo-page-pagebar", // 分页栏模板
+                cols: [
+                    [
+                        <!--                        {type: 'checkbox', fixed: 'left',width:100},-->
+                        {
+                            field: "id",
+                            type: "numbers",
+                            title: "序号",
+                            fixed: "left",
+                            width: 150,
+                        },
+                        // { field: 'generateStatus', title: '生成结果', align: 'center', width: 300 },
+                        {
+                            fixed: "right",
+                            field: "generateword",
+                            title: "生成文件",
+                            align: "center",
+                            width: 300,
+                        },
+                        {
+                            fixed: "right",
+                            title: "文件操作",
+                            align: "center",
+                            width: 300,
+                        },
+                    ],
+                ],
+                data: [],
+            });
+        }
+
+        // 生成 GUID 函数
+        function generateGUID() {
+            return "xxxxxxxxxxxx4xxxyxxxxxxxxxxxxxxx".replace(
+                /[xy]/g,
+                function (c) {
+                    var r = (Math.random() * 16) | 0,
+                        v = c === "x" ? r : (r & 0x3) | 0x8;
+                    return v.toString(16);
+                }
+            );
+        }
+        // 渲染表格
+        function renderTable(data) {
+            var headers = data[0].map(function (header) {
+                return {
+                    field: header,
+                    title: header,
+                    align: "center",
+                    width: 180,
+                    edit: "text",
+                };
+            });
+
+            var tableData = data.slice(1).map(function (row) {
+                var rowData = {};
+                row.forEach(function (cell, i) {
+                    rowData[headers[i].field] = cell;
+                    // 为每行生成GUID
+                    rowData.rowid = generateGUID();
+                });
+                return rowData;
+            });
+
+            // headers.unshift({ field: 'generateStatus', title: '生成结果', align: 'center', width: 120, fixed: 'left' });
+            headers.unshift({
+                field: "id",
+                type: "numbers",
+                title: "序号",
+                fixed: "left",
+                width: 80,
+            });
+            // headers.unshift({ type: 'checkbox', fixed: 'left' });
+            headers.push({ field: "rowid", title: "rowid", hide: true });
+            headers.push({
+                fixed: "right",
+                field: "generateword",
+                title: "生成文件",
+                align: "center",
+                width: 250,
+            });
+            headers.push({
+                fixed: "right",
+                title: "文件操作",
+                toolbar: "#barDemo",
+                align: "center",
+                width: 150,
+            });
+
+            table.render({
+                elem: "#docAssistantTable",
+                toolbar: "#toolbarDemo",
+                width: "full-100", // 表格宽度自适应
+                fit: true, // 列宽自适应
+                page: {
+                    // 支持传入 laypage 组件的所有参数（某些参数除外，如：jump/elem） - 详见文档
+                    layout: ["limit", "count", "prev", "page", "next", "skip"], //自定义分页布局
+                    groups: 5, //只显示 1 个连续页码
+                    first: false, //不显示首页
+                    last: false, //不显示尾页
+                },
+                pagebar: "#ID-table-demo-page-pagebar", // 分页栏模板
+                cols: [headers],
+                data: tableData,
+            });
+            _tableData = "";
+            _tableData = tableData;
+        }
+
+        // 监听单元格编辑
+        table.on("edit(docAssistantTable)", function (obj) {
+            var value = obj.value; // 得到修改后的值
+            var data = obj.data; // 得到所在行所有键值
+            var field = obj.field; // 得到字段
+            console.log("编辑后数据:", obj);
+            // 可以在这里对数据进行进一步处理，如同步到服务器
+        });
+
+        // 获取数组中所有对象的字段名
+        const getFieldNames = (arr) => {
+            const fieldNames = new Set();
+            arr.forEach((item) => {
+                Object.keys(item).forEach((key) => fieldNames.add(key));
+            });
+            return Array.from(fieldNames);
+        };
+
+        // 工具栏事件
+        table.on("toolbar(docAssistantTable)", function (obj) {
+            var id = obj.config.id;
+            var checkStatus = table.checkStatus(id);
+            var othis = lay(this);
+            switch (obj.event) {
+                case "getAllGenerate":
+                    // 获取字段名
+                    var progressTimer;
+                    loadIndex = layer.msg(
+                        '<span id="uploadProgress">生成中,生成进度：0%</span>',
+                        {
+                            icon: 16,
+                            shade: 0.6,
+                            time: 0, // 不自动关闭
+                        }
+                    );
+                    var fieldNames = getFieldNames(_tableData);
+                    var checkdataList = _tableData.map(function (item) {
+                        var newItem = {};
+                        fieldNames.forEach((fieldName) => {
+                            newItem[fieldName] = item[fieldName]; // 根据字段名设置值
+                        });
+                        return newItem;
+                    });
+                    var checkdata = JSON.stringify(checkdataList);
+                    if (checkdata == "[]") {
+                        layer.msg("表中没有数据！");
+                    } else {
+                        var file_storage = _file_storage;
+                        if (file_storage != "") {
+                            $.ajax({
+                                url: "/api/doc_assistant/filegenerate",
+                                type: "POST",
+                                data: {
+                                    checkdata: checkdata,
+                                    file_storage: file_storage,
+                                    gpuInfo: JSON.stringify(gpuInfo),
+                                    local_ip: sessionStorage.getItem('local_ip')
+                                },
+                                success: function (data) {
+                                    console.log(data);
+                                    if (!data.login) {
+                                        var index = layer.open({
+                                            title: '为了更好的体验和网站安全，请通过手机号验证后继续体验。',
+                                            type: 2,
+                                            offset: 'auto',
+                                            area: ['475px', '267px'],
+                                            content: 'phone.html',
+                                            end: function () {
+                                                parent.location.reload();
+                                            }
+                                        });
+                                        return;
+                                    }
+                                    if (data.success) {
+                                        layui.each(data.data, function (index, item) {
+                                            var fileName = item.obj.file_name;
+                                            var rowid = item.rowid;
+                                            // updateResultStatusCell(rowid, '已生成！')
+                                            updateResultWordCell(rowid, fileName);
+                                        });
+
+                                        layer.msg(data.msg);
+                                    } else {
+                                        layer.msg("生成失败：" + data.msg);
+                                    }
+                                },
+                            });
+                        } else {
+                            layer.msg("请上传Word模板后再生成！");
+                        }
+                    }
+                    break;
+                case "getCheckGenerate":
+                    var checkdataList = _tableData.map(function (item) {
+                        return {
+                            文件名: item.文件名,
+                            rowid: item.rowid,
+                            组织机构全称: item.组织机构全称,
+                        };
+                    });
+                    var checkdata = JSON.stringify(checkdataList);
+                    if (checkdata == "[]") {
+                        layer.msg("请选择表中的数据！");
+                    } else {
+                        var file_storage = _file_storage;
+                        if (file_storage != "") {
+                            $.ajax({
+                                url: "/api/doc_assistant/filegenerate",
+                                type: "POST",
+                                data: {
+                                    checkdata: checkdata,
+                                    file_storage: file_storage,
+                                    gpuInfo: JSON.stringify(gpuInfo),
+                                    local_ip: sessionStorage.getItem('local_ip')
+                                },
+                                success: function (data) {
+                                    if (!data.login) {
+                                        var index = layer.open({
+                                            title: '为了更好的体验和网站安全，请通过手机号验证后继续体验。',
+                                            type: 2,
+                                            offset: 'auto',
+                                            area: ['475px', '267px'],
+                                            content: 'phone.html',
+                                            end: function () {
+                                                parent.location.reload();
+                                            }
+                                        });
+                                        return;
+                                    }
+                                    if (data.success) {
+                                        layui.each(data.data, function (index, item) {
+                                            var fileName = item.obj.file_name;
+                                            var rowid = item.rowid;
+                                            updateResultStatusCell(rowid, "已生成！");
+                                            updateResultWordCell(rowid, fileName);
+                                        });
+
+                                        layer.msg(data.msg);
+                                    } else {
+                                        layer.msg("生成失败：" + data.msg);
+                                    }
+                                },
+                            });
+                        } else {
+                            layer.msg("请上传Word模板后再生成！");
+                        }
+                    }
+                    break;
+                case "getAllDownload":
+                    // 获取字段名
+                    var progressTimer;
+                    loadIndex = layer.msg(
+                        '<span id="uploadProgress">下载中,下载进度：0%</span>',
+                        {
+                            icon: 16,
+                            shade: 0.6,
+                            time: 0, // 不自动关闭
+                        }
+                    );
+                    var fieldNames = getFieldNames(_tableData);
+                    var checkdataList = _tableData.map(function (item) {
+                        var newItem = {};
+                        fieldNames.forEach((fieldName) => {
+                            newItem[fieldName] = item[fieldName]; // 根据字段名设置值
+                        });
+                        return newItem;
+                    });
+                    var checkdata = JSON.stringify(checkdataList);
+                    if (checkdata == "[]") {
+                        layer.msg("表中没有生成的文件可以下载！");
+                    } else {
+                        var file_storage = _file_storage;
+                        if (file_storage != "") {
+                            $.ajax({
+                                url: "/api/doc_assistant/getbatchfile",
+                                type: "POST",
+                                data: {
+                                    checkdata: checkdata,
+                                },
+                                success: function (data) {
+                                    if (data.success) {
+                                        var _generate_file_storage = data.generate_file_storage;
+                                        var _generate_file_name = data.generate_file_name;
+                                        downloadFile(_generate_file_storage, _generate_file_name);
+                                        layer.msg(data.msg);
+                                    } else {
+                                        layer.msg("下载失败：" + data.msg);
+                                    }
+                                },
+                            });
+                        } else {
+                            layer.msg("还未上传Word模板生成，无法下载！");
+                        }
+                    }
+                    break;
+            }
+        });
+
+        // 触发单元格工具事件
+        table.on("tool(docAssistantTable)", function (obj) {
+            // 双击 toolDouble
+            var data = obj.data; // 获得当前行数据
+            var _generate_file_name = data.generateword;
+            var file_storage = _file_storage;
+            if (obj.event === "generate") {
+                var checkdata = JSON.stringify([data]);
+                if (file_storage != "") {
+                    $.ajax({
+                        url: "/api/doc_assistant/filegenerate",
+                        type: "POST",
+                        data: {
+                            checkdata: checkdata,
+                            file_storage: file_storage,
+                            gpuInfo: JSON.stringify(gpuInfo),
+                            local_ip: sessionStorage.getItem('local_ip')
+                        },
+                        success: function (data) {
+                            if (!data.login) {
+                                var index = layer.open({
+                                    title: '为了更好的体验和网站安全，请通过手机号验证后继续体验。',
+                                    type: 2,
+                                    offset: 'auto',
+                                    area: ['475px', '267px'],
+                                    content: 'phone.html',
+                                    end: function () {
+                                        parent.location.reload();
+                                    }
+                                });
+                                return;
+                            }
+                            if (data.success) {
+                                layui.each(data.data, function (index, item) {
+                                    var fileName = item.obj.file_name;
+                                    var rowid = item.rowid;
+                                    // updateResultStatusCell(rowid, '已生成！')
+                                    updateResultWordCell(rowid, fileName);
+                                });
+
+                                layer.msg(data.msg);
+                            } else {
+                                layer.msg("生成失败：" + data.msg);
+                            }
+                        },
+                    });
+                } else {
+                    layer.msg("请上传Word模板后再生成！");
+                }
+            } else if (obj.event === "preview") {
+                if (_generate_file_name != "") {
+                    var fileExt = _generate_file_name.substr(
+                        _generate_file_name.lastIndexOf(".") + 1
+                    ); //获取文件后缀
+                    var _generate_file_storage = data.rowid + "." + fileExt;
+                    previewFile(_generate_file_storage);
+                } else {
+                    layer.msg("请生成文件！");
+                }
+            } else if (obj.event === "download") {
+                if (_generate_file_name != "") {
+                    if (_generate_file_name.includes("/")) {
+                        var _generate_file_storage =
+                            data.rowid + "/" + _generate_file_name;
+                        var generate_file_name = _generate_file_name
+                            .split(".")
+                            .slice(0, -1)
+                            .join(".");
+                        downloadFile(_generate_file_storage, generate_file_name + ".zip");
+                    } else {
+                        var fileExt = _generate_file_name.substr(
+                            _generate_file_name.lastIndexOf(".") + 1
+                        ); //获取文件后缀-->
+                        var _generate_file_storage = data.rowid + "." + fileExt;
+                        downloadFile(_generate_file_storage, _generate_file_name);
+                    }
+                } else {
+                    layer.msg("请生成文件！");
+                }
+            }
+        });
+
+        // 预览文件的函数
+        function previewFile(generate_file_storage) {
+            // 创建一个虚拟的链接元素
+            var link = document.createElement("a");
+            link.style.display = "none";
+            link.target = "_blank";
+            document.body.appendChild(link);
+
+            // 设置链接的预览属性
+            pdfname = generate_file_storage.substring(
+                0,
+                generate_file_storage.lastIndexOf(".")
+            );
+            var fileurl =
+                "https://demo.aituple.com/pc/free/pdfPreview.html?pdfFileId=" +
+                pdfname;
+            link.setAttribute("href", fileurl);
+
+            // 模拟点击链接进行下载
+            link.click();
+
+            // 清理资源
+            document.body.removeChild(link);
+        }
+
+        // 下载文件的函数
+        function downloadFile(generate_file_storage, generate_file_name) {
+            // 创建一个虚拟的链接元素
+            var link = document.createElement("a");
+            link.style.display = "none";
+            document.body.appendChild(link);
+
+            // 设置链接的下载属性
+            link.setAttribute(
+                "href",
+                "/api/doc_assistant/file/" + generate_file_storage
+            );
+            link.setAttribute("download", generate_file_name);
+
+            // 模拟点击链接进行下载
+            link.click();
+
+            // 清理资源
+            document.body.removeChild(link);
+        }
+
+        // 更新generateStatus列的值
+        function updateResultStatusCell(targetid, newValue) {
+            var tableData = _tableData;
+            layui.each(tableData, function (index, item) {
+                if (item.rowid == targetid) {
+                    item.generateStatus = newValue;
+                    table.reload("docAssistantTable", {
+                        data: tableData,
+                    });
+                }
+            });
+        }
+
+        // 更新generateword列的值
+        function updateResultWordCell(targetid, newValue) {
+            var tableData = _tableData;
+            layui.each(tableData, function (index, item) {
+                if (item.rowid == targetid) {
+                    item.generateword = newValue;
+                    table.reload("docAssistantTable", {
+                        data: tableData,
+                    });
+                }
+            });
+        }
+
+        // 获取所有分页的数据
+        function getAllData(callback) {
+            var allData = [];
+            var pageSize = 10; // 每页显示的条数
+            var currentPage = 1;
+
+            // 获取第一页数据并计算总页数
+            table.reload("docAssistantTable", {
+                page: { curr: 1 }, // 从第一页开始
+                limit: pageSize,
+                done: function (res, curr, count) {
+                    var totalPages = Math.ceil(count / pageSize);
+                    allData = allData.concat(res.data);
+
+                    // 依次获取其他页的数据
+                    var promises = [];
+                    for (var i = 2; i <= totalPages; i++) {
+                        promises.push(
+                            new Promise(function (resolve) {
+                                table.reload("docAssistantTable", {
+                                    page: { curr: i },
+                                    limit: pageSize,
+                                    done: function (res) {
+                                        allData = allData.concat(res.data);
+                                        resolve();
+                                    },
+                                });
+                            })
+                        );
+                    }
+                    // 等待所有请求完成
+                    Promise.all(promises).then(function () {
+                        callback(allData);
+                    });
+                },
+            });
+        }
+
+        // 底部分页栏事件
+        table.on("pagebar(docAssistantTable)", function (obj) {
+            var eventValue = obj.event; // 获得按钮 lay-event 值
+            layer.msg(eventValue);
+        });
+
+
+        function getGPUInfo() {
+            const canvas = document.createElement('canvas');
+            const gl = canvas.getContext('webgl') || canvas.getContext('experimental-webgl');
+            const debugInfo = gl.getExtension('WEBGL_debug_renderer_info');
+
+            return {
+                vendor: gl.getParameter(debugInfo.UNMASKED_VENDOR_WEBGL),
+                renderer: gl.getParameter(debugInfo.UNMASKED_RENDERER_WEBGL)
+            };
+        }
+    });
+</script>
+
+</html>
