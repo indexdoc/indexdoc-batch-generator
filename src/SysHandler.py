@@ -33,6 +33,16 @@ class ApiGetTmpFileHandler(BaseApiHandler):
             content_type = 'application/msword'
 
         # 设置响应头
+        self.set_header('Content-Type', content_type)
+        self.set_header('Content-Disposition', f'attachment; filename={_file_name}')
+        with open(filepath, 'rb') as f:
+            while True:
+                data = f.read(4096)
+                if not data:
+                    break
+                self.write(data)
+                # self.flush()  # 此处可能会报错
+        return
 
 class ApiGetFileHandler(BaseApiHandler):
     # todo 以下代码并没有进行过测试！
@@ -69,16 +79,7 @@ class ApiGetFileHandler(BaseApiHandler):
                 self.write(data)
                 # self.flush()  # 此处可能会报错
         return
-        self.set_header('Content-Type', content_type)
-        self.set_header('Content-Disposition', f'attachment; filename={_file_name}')
-        with open(filepath, 'rb') as f:
-            while True:
-                data = f.read(4096)
-                if not data:
-                    break
-                self.write(data)
-                # self.flush()  # 此处可能会报错
-        return
+
 
 
 # 支持小于100M的文件上传
