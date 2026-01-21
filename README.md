@@ -24,14 +24,14 @@
 
 ## 📝 使用示例
 点击右侧区域即可上传相应Excel/Word文件。点击样例下载可下载相应的样例文件。
-![主页1](https://github.com/indexdoc/indexdoc-batch-generator/raw/main/mainPage1.png)
+![主页1#1060px #411px](https://github.com/indexdoc/indexdoc-batch-generator/raw/main/mainPage1.png)
 点击全部生成后，即可按照Excel文件中的内容批量生成Word文件。
-![主页2](https://github.com/indexdoc/indexdoc-batch-generator/raw/main/mainPage2.png)
+![主页2#1089px #432px](https://github.com/indexdoc/indexdoc-batch-generator/raw/main/mainPage2.png)
 Excel文件中从第二列开始的列名与Word文件中 {} 中的内容相对应，点击全部生成后，每行的内容都会根据列名 填入Word文档中。
 ### 样例文件
 ![excel示例文件](https://github.com/indexdoc/indexdoc-batch-generator/raw/main/excelExampleFlie.png)
 ![wrod示例文件](https://github.com/indexdoc/indexdoc-batch-generator/raw/main/wrodExampleFlie.png)
-#### 生成的文件示例如下：
+生成的文件示例如下：
 
 ![生成的文件示例](https://github.com/indexdoc/indexdoc-batch-generator/raw/main/generatedExampleFile.png)
 
