@@ -326,7 +326,7 @@
                 file_name = res.obj.file_storage;
                 pdfname = file_name.substring(0, file_name.lastIndexOf("."));
                 var url =
-                    "https://demo.aituple.com/pc/free/pdfPreview.html?pdfFileId=" +
+                    "/public/pdfPreview.html?pdfFileId=" +
                     pdfname;
                 $("#excelfilename").attr("href", url);
                 console.log(res);
@@ -511,7 +511,7 @@
                 $("#wordfilename").text(res.obj.file_name);
                 pdfname = _file_storage.substring(0, _file_storage.lastIndexOf("."));
                 var url =
-                    "https://demo.aituple.com/pc/free/pdfPreview.html?pdfFileId=" +
+                    "/public/pdfPreview.html?pdfFileId=" +
                     pdfname;
                 $("#wordfilename").attr("href", url);
                 console.log(res);
@@ -962,7 +962,7 @@
                 generate_file_storage.lastIndexOf(".")
             );
             var fileurl =
-                "https://demo.aituple.com/pc/free/pdfPreview.html?pdfFileId=" +
+                "/public/pdfPreview.html?pdfFileId=" +
                 pdfname;
             link.setAttribute("href", fileurl);
 
