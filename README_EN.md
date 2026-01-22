@@ -1,4 +1,3 @@
-markdown
 <div align="center">
   <strong>English</strong> | <a href="README.md">简体中文</a>
 </div>
