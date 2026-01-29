@@ -26,6 +26,13 @@ Batch Document Assistant is an efficient document batch generation tool that sup
 ```bash
 https://github.com/indexdoc/indexdoc-batch-generator.git
 ```
+```bash
+# Install dependencies quickly
+pip install -r requirements.txt
+
+# Use Alibaba Cloud PyPI mirror (faster installation)
+pip install -r requirements.txt -i https://mirrors.aliyun.com/pypi/simple/
+```
 
 ### Configuration
 ### Backend Core Configuration (config.py)

@@ -31,6 +31,13 @@
 ```bash
 https://github.com/indexdoc/indexdoc-batch-generator.git
 ```
+```bash
+#快速安装依赖库
+pip install -r requirements.txt
+
+# 阿里镜像源
+pip install -r requirements.txt -i https://mirrors.aliyun.com/pypi/simple/
+```
 
 ### 配置
 ### 后端核心配置（config.py）
