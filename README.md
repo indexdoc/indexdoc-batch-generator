@@ -6,7 +6,7 @@
 # 批量文档助手
 批量文档助手是一款高效便捷的文档批量生成工具，支持上传Excel文件与Word文件，可通过Excel文件定义最终生成文档的文件名规则，以及Word模板中需替换的相关字段；在Word模板中，只需将待替换内容以“{列名}”（列名为Excel文件中的对应列名）的形式标注，完成设置后点击生成按钮，即可快速批量生成符合需求的文档，大幅节省手动编辑、替换文档的时间成本，提升文档生成效率。
 
-[![Python Version](https://img.shields.io/badge/python-3.10+-green.svg)](https://www.python.org/)  [![GitHub Stars](https://img.shields.io/github/stars/indexdoc/indexdoc-batch-generator?style=social)](https://github.com/indexdoc/indexdoc-batch-generator.git) 
+[![Python Version](https://img.shields.io/badge/python-3.10+-green.svg)](https://www.python.org/)  [![GitHub Stars](https://img.shields.io/github/stars/indexdoc/indexdoc-batch-generator?style=social)](https://github.com/indexdoc/indexdoc-batch-generator.git)   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## ✨ 核心功能
 
