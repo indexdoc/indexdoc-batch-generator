@@ -50,16 +50,16 @@ Local access: `http://127.0.0.1:50003/public/batchDoc.html`
 
 ## 📝 Usage Example
 Click the right area to upload the corresponding Excel/Word files. Click "Download Sample" to download the corresponding sample files.
-![Main Page 1](https://github.com/indexdoc/indexdoc-batch-generator/raw/main/mainPage1.png)
+![Main Page 1](https://github.com/indexdoc/indexdoc-batch-generator/raw/main/README/mainPage1.png)
 After clicking "Generate All", Word files will be batch generated according to the content in the Excel file.
-![Main Page 2](https://github.com/indexdoc/indexdoc-batch-generator/raw/main/mainPage2.png)
+![Main Page 2](https://github.com/indexdoc/indexdoc-batch-generator/raw/main/README/mainPage2.png)
 The column names starting from the second column in the Excel file correspond to the content in `{}` in the Word file. After clicking "Generate All", the content of each row will be filled into the Word document according to the column names.
 ### Sample Files
-![Excel Sample File](https://github.com/indexdoc/indexdoc-batch-generator/raw/main/excelExampleFlie.png)
-![Word Sample File](https://github.com/indexdoc/indexdoc-batch-generator/raw/main/wrodExampleFlie.png)
+![Excel Sample File](https://github.com/indexdoc/indexdoc-batch-generator/raw/main/README/excelExampleFlie.png)
+![Word Sample File](https://github.com/indexdoc/indexdoc-batch-generator/raw/main/README/wrodExampleFlie.png)
 #### Example of Generated Files:
 
-![Generated File Example](https://github.com/indexdoc/indexdoc-batch-generator/raw/main/generatedExampleFile.png)
+![Generated File Example](https://github.com/indexdoc/indexdoc-batch-generator/raw/main/README/generatedExampleFile.png)
 
 ### Frequently Asked Questions
 1. **Placeholders not replaced after document generation**: Check if the Excel column names are exactly the same (including case) as the placeholder column names in the Word template;
