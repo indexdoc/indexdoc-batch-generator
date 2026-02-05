@@ -39,15 +39,6 @@ pip install -r requirements.txt
 pip install -r requirements.txt -i https://mirrors.aliyun.com/pypi/simple/
 ```
 
-### 配置
-### 后端核心配置（config.py）
-| 配置项 | 类型 | 默认值 | 说明 |
-|--------|------|--------|------|
-| `port` | int | `50003` | 后端服务运行端口 |
-| `ck_config` | dict | `{'host':'127.0.0.1','port':'9000','user':'default','password':'','database':'default'}` | ClickHouse数据库连接配置，包含地址、端口、用户名、密码、数据库名 |
-| `max_workers` | int | `16` | 线程池最大线程数量，用于异步任务处理 |
-| 路径配置 | string | - | 包含`html_path`（前端页面路径）、`tmp_path`（临时文件路径）、`rpt_path`（报表路径）、`user_file_path`（用户上传文件路径）、`log_path`（日志文件路径），程序启动时自动创建不存在的目录 |
-| 日志配置 | - | - | 日志输出格式为`%(asctime)s:%(levelname)s:FILE(%(filename)s %(funcName)s %(lineno)d):%(message)s`，输出到控制台和按天轮转的日志文件（保留365天），日志级别为INFO |
 ### 数据库文件目录
 ```bash
 sql/create_ck_table.sql
