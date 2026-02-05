@@ -34,15 +34,6 @@ pip install -r requirements.txt
 pip install -r requirements.txt -i https://mirrors.aliyun.com/pypi/simple/
 ```
 
-### Configuration
-### Backend Core Configuration (config.py)
-| Configuration Item | Type | Default Value | Description |
-|--------------------|------|---------------|-------------|
-| `port` | int | `50003` | Port for backend service operation |
-| `ck_config` | dict | `{'host':'127.0.0.1','port':'9000','user':'default','password':'','database':'default'}` | ClickHouse database connection configuration, including address, port, username, password, and database name |
-| `max_workers` | int | `16` | Maximum number of threads in the thread pool, used for asynchronous task processing |
-| Path Configuration | string | - | Includes `html_path` (frontend page path), `tmp_path` (temporary file path), `rpt_path` (report path), `user_file_path` (user uploaded file path), `log_path` (log file path). Non-existent directories are automatically created when the program starts |
-| Log Configuration | - | - | Log output format is `%(asctime)s:%(levelname)s:FILE(%(filename)s %(funcName)s %(lineno)d):%(message)s`, output to the console and daily rotated log files (retained for 365 days), log level is INFO |
 ### Database File Directory
 ```bash
 sql/create_ck_table.sql
