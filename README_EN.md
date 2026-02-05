@@ -6,7 +6,7 @@
 # Batch Document Assistant
 Batch Document Assistant is an efficient document batch generation tool that supports uploading Excel and Word files. You can define the naming rules for the final generated documents via Excel, as well as the fields to be replaced in the Word template. In the Word template, simply mark the content to be replaced in the format of `{column name}` (where the column name corresponds to the column name in the Excel file). After completing the settings, click the generate button to quickly batch generate documents that meet your needs—greatly reducing the time cost of manual editing and replacement, and improving document generation efficiency.
 
-[![Python Version](https://img.shields.io/badge/python-3.10+-green.svg)](https://www.python.org/)  [![GitHub Stars](https://img.shields.io/github/stars/indexdoc/indexdoc-batch-generator?style=social)](https://github.com/indexdoc/indexdoc-batch-generator.git) 
+[![Python Version](https://img.shields.io/badge/python-3.10+-green.svg)](https://www.python.org/)  [![GitHub Stars](https://img.shields.io/github/stars/indexdoc/indexdoc-batch-generator?style=social)](https://github.com/indexdoc/indexdoc-batch-generator.git)   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## ✨ Core Features
 
