@@ -2,7 +2,7 @@
   <div style="font-size: 15px; line-height: 2; padding: 4px 0; letter-spacing: 0.5px;">
     <strong style="color: #24292f;">简体中文</strong> 
     | <a href="README_EN.md" style="color: #0969da; text-decoration: none;">English</a>
-    | <a href="https://www.indexdoc.com/webapp/?tab=markdown&page=.%2Fcherry_markdown%2Fmarkdown.html" target="_blank" style="color: #165DFF; font-weight: 600; text-decoration: none;">✨ 在线Demo</a>
+    | <a href="https://demo.aituple.com/pc/free/index.html?path=batchDoc" target="_blank" style="color: #165DFF; font-weight: 600; text-decoration: none;">✨ 在线Demo</a>
   </div>
   <div style="font-size: 14px; color: #57606a; padding: 2px 0;">
     <span style="background: #f6f8fa; padding: 2px 8px; border-radius: 4px; font-size: 13px;">核心仓库</span>
