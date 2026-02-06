@@ -11,6 +11,7 @@
     <a href="https://github.com/indexdoc/indexdoc-ai-offline" target="_blank" style="color: #0969da; text-decoration: none; margin: 0 6px;">indexdoc-ai-offline（Local Document AI Assistant）</a>
     <a href="https://github.com/indexdoc/indexdoc-legal-assistant" target="_blank" style="color: #0969da; text-decoration: none; margin: 0 6px;">indexdoc-legal-assistant（Judgment Document Assistant）</a>
     <a href="https://github.com/indexdoc/indexdoc-editor" target="_blank" style="color: #0969da; text-decoration: none; margin: 0 6px;">indexdoc-editor（Markdown Editor）</a>
+    <a href="https://github.com/indexdoc/indexdoc-vector" target="_blank" style="color: #0969da; text-decoration: none; margin: 0 6px;">indexdoc-vector（Vector Database）</a>
   </div>
 </div>
 
