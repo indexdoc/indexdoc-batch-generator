@@ -11,6 +11,7 @@
     <a href="https://github.com/indexdoc/indexdoc-ai-offline" target="_blank" style="color: #0969da; text-decoration: none; margin: 0 6px;">indexdoc-ai-offline（本地文档AI助手）</a>
     <a href="https://github.com/indexdoc/indexdoc-legal-assistant" target="_blank" style="color: #0969da; text-decoration: none; margin: 0 6px;">indexdoc-legal-assistant（裁判文书助手）</a>
     <a href="https://github.com/indexdoc/indexdoc-editor" target="_blank" style="color: #0969da; text-decoration: none; margin: 0 6px;">indexdoc-editor（Markdown编辑器）</a>
+    <a href="https://github.com/indexdoc/indexdoc-vector" target="_blank" style="color: #0969da; text-decoration: none; margin: 0 6px;">indexdoc-vector（向量数据库）</a>
   </div>
 </div>
 
